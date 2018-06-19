@@ -1,7 +1,9 @@
 {
   "name": "ncloud-sdk",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
+  "description": "Naver Cloud Platform Client Library for node",
+  "homepage": "https://github.com/NaverCloudPlatform/ncloud-sdk-js",
   "license": "MIT",
   "scripts": {
     "test": "jest",

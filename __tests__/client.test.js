@@ -2,7 +2,6 @@ const ncloud = require('../lib/ncloud');
 const Server = require('server');
 
 const n = new ncloud();
-
 const client = new Server.ApiClient(n.keys());
 const instance = new Server.V1Api(client);
 
