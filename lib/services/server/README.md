@@ -54,9 +54,9 @@ var client = new Server.ApiClient({
   secretKey: 'your secret key',
 });
 
-var apiInstance = new Server.V1Api(client)
+var apiInstance = new Server.V2Api(client)
 
-var nasVolumeAccessControl = new Server.NasVolumeAccessControl(); // {NasVolumeAccessControl} NasVolumeAccessControl
+var addNasVolumeAccessControlRequest = new Server.AddNasVolumeAccessControlRequest(); // {AddNasVolumeAccessControlRequest} addNasVolumeAccessControlRequest
 
 
 var callback = function(error, data, response) {
@@ -66,118 +66,76 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
-apiInstance.addNasVolumeAccessControlGet(nasVolumeAccessControl, callback);
+apiInstance.addNasVolumeAccessControl(addNasVolumeAccessControlRequest, callback);
 
 ```
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://ncloud.beta-apigw.ntruss.com/server/v1*
+All URIs are relative to *https://ncloud.beta-apigw.ntruss.com/server/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Server.V1Api* | [**addNasVolumeAccessControlGet**](docs/V1Api.md#addNasVolumeAccessControlGet) | **GET** /addNasVolumeAccessControl | 
-*Server.V1Api* | [**addNasVolumeAccessControlPost**](docs/V1Api.md#addNasVolumeAccessControlPost) | **POST** /addNasVolumeAccessControl | 
-*Server.V1Api* | [**addPortForwardingRulesGet**](docs/V1Api.md#addPortForwardingRulesGet) | **GET** /addPortForwardingRules | 
-*Server.V1Api* | [**addPortForwardingRulesPost**](docs/V1Api.md#addPortForwardingRulesPost) | **POST** /addPortForwardingRules | 
-*Server.V1Api* | [**associatePublicIpWithServerInstanceGet**](docs/V1Api.md#associatePublicIpWithServerInstanceGet) | **GET** /associatePublicIpWithServerInstance | 
-*Server.V1Api* | [**associatePublicIpWithServerInstancePost**](docs/V1Api.md#associatePublicIpWithServerInstancePost) | **POST** /associatePublicIpWithServerInstance | 
-*Server.V1Api* | [**changeNasVolumeSizeGet**](docs/V1Api.md#changeNasVolumeSizeGet) | **GET** /changeNasVolumeSize | 
-*Server.V1Api* | [**changeNasVolumeSizePost**](docs/V1Api.md#changeNasVolumeSizePost) | **POST** /changeNasVolumeSize | 
-*Server.V1Api* | [**changeServerInstanceSpecGet**](docs/V1Api.md#changeServerInstanceSpecGet) | **GET** /changeServerInstanceSpec | 
-*Server.V1Api* | [**changeServerInstanceSpecPost**](docs/V1Api.md#changeServerInstanceSpecPost) | **POST** /changeServerInstanceSpec | 
-*Server.V1Api* | [**createBlockStorageInstanceGet**](docs/V1Api.md#createBlockStorageInstanceGet) | **GET** /createBlockStorageInstance | 
-*Server.V1Api* | [**createBlockStorageInstancePost**](docs/V1Api.md#createBlockStorageInstancePost) | **POST** /createBlockStorageInstance | 
-*Server.V1Api* | [**createLoginKeyGet**](docs/V1Api.md#createLoginKeyGet) | **GET** /createLoginKey | 
-*Server.V1Api* | [**createLoginKeyPost**](docs/V1Api.md#createLoginKeyPost) | **POST** /createLoginKey | 
-*Server.V1Api* | [**createMemberServerImageGet**](docs/V1Api.md#createMemberServerImageGet) | **GET** /createMemberServerImage | 
-*Server.V1Api* | [**createMemberServerImagePost**](docs/V1Api.md#createMemberServerImagePost) | **POST** /createMemberServerImage | 
-*Server.V1Api* | [**createNasVolumeInstanceGet**](docs/V1Api.md#createNasVolumeInstanceGet) | **GET** /createNasVolumeInstance | 
-*Server.V1Api* | [**createNasVolumeInstancePost**](docs/V1Api.md#createNasVolumeInstancePost) | **POST** /createNasVolumeInstance | 
-*Server.V1Api* | [**createPublicIpInstanceGet**](docs/V1Api.md#createPublicIpInstanceGet) | **GET** /createPublicIpInstance | 
-*Server.V1Api* | [**createPublicIpInstancePost**](docs/V1Api.md#createPublicIpInstancePost) | **POST** /createPublicIpInstance | 
-*Server.V1Api* | [**createServerInstancesGet**](docs/V1Api.md#createServerInstancesGet) | **GET** /createServerInstances | 
-*Server.V1Api* | [**createServerInstancesPost**](docs/V1Api.md#createServerInstancesPost) | **POST** /createServerInstances | 
-*Server.V1Api* | [**deleteBlockStorageInstancesGet**](docs/V1Api.md#deleteBlockStorageInstancesGet) | **GET** /deleteBlockStorageInstances | 
-*Server.V1Api* | [**deleteBlockStorageInstancesPost**](docs/V1Api.md#deleteBlockStorageInstancesPost) | **POST** /deleteBlockStorageInstances | 
-*Server.V1Api* | [**deleteLoginKeyGet**](docs/V1Api.md#deleteLoginKeyGet) | **GET** /deleteLoginKey | 
-*Server.V1Api* | [**deleteLoginKeyPost**](docs/V1Api.md#deleteLoginKeyPost) | **POST** /deleteLoginKey | 
-*Server.V1Api* | [**deleteMemberServerImagesGet**](docs/V1Api.md#deleteMemberServerImagesGet) | **GET** /deleteMemberServerImages | 
-*Server.V1Api* | [**deleteMemberServerImagesPost**](docs/V1Api.md#deleteMemberServerImagesPost) | **POST** /deleteMemberServerImages | 
-*Server.V1Api* | [**deleteNasVolumeInstanceGet**](docs/V1Api.md#deleteNasVolumeInstanceGet) | **GET** /deleteNasVolumeInstance | 
-*Server.V1Api* | [**deleteNasVolumeInstancePost**](docs/V1Api.md#deleteNasVolumeInstancePost) | **POST** /deleteNasVolumeInstance | 
-*Server.V1Api* | [**deletePortForwardingRulesGet**](docs/V1Api.md#deletePortForwardingRulesGet) | **GET** /deletePortForwardingRules | 
-*Server.V1Api* | [**deletePortForwardingRulesPost**](docs/V1Api.md#deletePortForwardingRulesPost) | **POST** /deletePortForwardingRules | 
-*Server.V1Api* | [**deletePublicIpInstancesGet**](docs/V1Api.md#deletePublicIpInstancesGet) | **GET** /deletePublicIpInstances | 
-*Server.V1Api* | [**deletePublicIpInstancesPost**](docs/V1Api.md#deletePublicIpInstancesPost) | **POST** /deletePublicIpInstances | 
-*Server.V1Api* | [**disassociatePublicIpFromServerInstanceGet**](docs/V1Api.md#disassociatePublicIpFromServerInstanceGet) | **GET** /disassociatePublicIpFromServerInstance | 
-*Server.V1Api* | [**disassociatePublicIpFromServerInstancePost**](docs/V1Api.md#disassociatePublicIpFromServerInstancePost) | **POST** /disassociatePublicIpFromServerInstance | 
-*Server.V1Api* | [**getAccessControlGroupListGet**](docs/V1Api.md#getAccessControlGroupListGet) | **GET** /getAccessControlGroupList | 
-*Server.V1Api* | [**getAccessControlGroupListPost**](docs/V1Api.md#getAccessControlGroupListPost) | **POST** /getAccessControlGroupList | 
-*Server.V1Api* | [**getAccessControlGroupServerInstanceListGet**](docs/V1Api.md#getAccessControlGroupServerInstanceListGet) | **GET** /getAccessControlGroupServerInstanceList | 
-*Server.V1Api* | [**getAccessControlGroupServerInstanceListPost**](docs/V1Api.md#getAccessControlGroupServerInstanceListPost) | **POST** /getAccessControlGroupServerInstanceList | 
-*Server.V1Api* | [**getAccessControlRuleListGet**](docs/V1Api.md#getAccessControlRuleListGet) | **GET** /getAccessControlRuleList | 
-*Server.V1Api* | [**getAccessControlRuleListPost**](docs/V1Api.md#getAccessControlRuleListPost) | **POST** /getAccessControlRuleList | 
-*Server.V1Api* | [**getBlockStorageInstanceListGet**](docs/V1Api.md#getBlockStorageInstanceListGet) | **GET** /getBlockStorageInstanceList | 
-*Server.V1Api* | [**getBlockStorageInstanceListPost**](docs/V1Api.md#getBlockStorageInstanceListPost) | **POST** /getBlockStorageInstanceList | 
-*Server.V1Api* | [**getBlockStorageSnapshotInstanceListGet**](docs/V1Api.md#getBlockStorageSnapshotInstanceListGet) | **GET** /getBlockStorageSnapshotInstanceList | 
-*Server.V1Api* | [**getBlockStorageSnapshotInstanceListPost**](docs/V1Api.md#getBlockStorageSnapshotInstanceListPost) | **POST** /getBlockStorageSnapshotInstanceList | 
-*Server.V1Api* | [**getLoginKeyListGet**](docs/V1Api.md#getLoginKeyListGet) | **GET** /getLoginKeyList | 
-*Server.V1Api* | [**getLoginKeyListPost**](docs/V1Api.md#getLoginKeyListPost) | **POST** /getLoginKeyList | 
-*Server.V1Api* | [**getMemberServerImageListGet**](docs/V1Api.md#getMemberServerImageListGet) | **GET** /getMemberServerImageList | 
-*Server.V1Api* | [**getMemberServerImageListPost**](docs/V1Api.md#getMemberServerImageListPost) | **POST** /getMemberServerImageList | 
-*Server.V1Api* | [**getNasVolumeInstanceListGet**](docs/V1Api.md#getNasVolumeInstanceListGet) | **GET** /getNasVolumeInstanceList | 
-*Server.V1Api* | [**getNasVolumeInstanceListPost**](docs/V1Api.md#getNasVolumeInstanceListPost) | **POST** /getNasVolumeInstanceList | 
-*Server.V1Api* | [**getNasVolumeInstanceRatingListGet**](docs/V1Api.md#getNasVolumeInstanceRatingListGet) | **GET** /getNasVolumeInstanceRatingList | 
-*Server.V1Api* | [**getNasVolumeInstanceRatingListPost**](docs/V1Api.md#getNasVolumeInstanceRatingListPost) | **POST** /getNasVolumeInstanceRatingList | 
-*Server.V1Api* | [**getPortForwardingRuleListGet**](docs/V1Api.md#getPortForwardingRuleListGet) | **GET** /getPortForwardingRuleList | 
-*Server.V1Api* | [**getPortForwardingRuleListPost**](docs/V1Api.md#getPortForwardingRuleListPost) | **POST** /getPortForwardingRuleList | 
-*Server.V1Api* | [**getPublicIpInstanceListGet**](docs/V1Api.md#getPublicIpInstanceListGet) | **GET** /getPublicIpInstanceList | 
-*Server.V1Api* | [**getPublicIpInstanceListPost**](docs/V1Api.md#getPublicIpInstanceListPost) | **POST** /getPublicIpInstanceList | 
-*Server.V1Api* | [**getPublicIpTargetServerInstanceListGet**](docs/V1Api.md#getPublicIpTargetServerInstanceListGet) | **GET** /getPublicIpTargetServerInstanceList | 
-*Server.V1Api* | [**getPublicIpTargetServerInstanceListPost**](docs/V1Api.md#getPublicIpTargetServerInstanceListPost) | **POST** /getPublicIpTargetServerInstanceList | 
-*Server.V1Api* | [**getRaidListGet**](docs/V1Api.md#getRaidListGet) | **GET** /getRaidList | 
-*Server.V1Api* | [**getRaidListPost**](docs/V1Api.md#getRaidListPost) | **POST** /getRaidList | 
-*Server.V1Api* | [**getRegionListGet**](docs/V1Api.md#getRegionListGet) | **GET** /getRegionList | 
-*Server.V1Api* | [**getRegionListPost**](docs/V1Api.md#getRegionListPost) | **POST** /getRegionList | 
-*Server.V1Api* | [**getRootPasswordGet**](docs/V1Api.md#getRootPasswordGet) | **GET** /getRootPassword | 
-*Server.V1Api* | [**getRootPasswordPost**](docs/V1Api.md#getRootPasswordPost) | **POST** /getRootPassword | 
-*Server.V1Api* | [**getServerImageProductListGet**](docs/V1Api.md#getServerImageProductListGet) | **GET** /getServerImageProductList | 
-*Server.V1Api* | [**getServerImageProductListPost**](docs/V1Api.md#getServerImageProductListPost) | **POST** /getServerImageProductList | 
-*Server.V1Api* | [**getServerInstanceListGet**](docs/V1Api.md#getServerInstanceListGet) | **GET** /getServerInstanceList | 
-*Server.V1Api* | [**getServerInstanceListPost**](docs/V1Api.md#getServerInstanceListPost) | **POST** /getServerInstanceList | 
-*Server.V1Api* | [**getServerProductListGet**](docs/V1Api.md#getServerProductListGet) | **GET** /getServerProductList | 
-*Server.V1Api* | [**getServerProductListPost**](docs/V1Api.md#getServerProductListPost) | **POST** /getServerProductList | 
-*Server.V1Api* | [**getZoneListGet**](docs/V1Api.md#getZoneListGet) | **GET** /getZoneList | 
-*Server.V1Api* | [**getZoneListPost**](docs/V1Api.md#getZoneListPost) | **POST** /getZoneList | 
-*Server.V1Api* | [**rebootServerInstancesGet**](docs/V1Api.md#rebootServerInstancesGet) | **GET** /rebootServerInstances | 
-*Server.V1Api* | [**rebootServerInstancesPost**](docs/V1Api.md#rebootServerInstancesPost) | **POST** /rebootServerInstances | 
-*Server.V1Api* | [**recreateServerInstanceGet**](docs/V1Api.md#recreateServerInstanceGet) | **GET** /recreateServerInstance | 
-*Server.V1Api* | [**recreateServerInstancePost**](docs/V1Api.md#recreateServerInstancePost) | **POST** /recreateServerInstance | 
-*Server.V1Api* | [**removeNasVolumeAccessControlGet**](docs/V1Api.md#removeNasVolumeAccessControlGet) | **GET** /removeNasVolumeAccessControl | 
-*Server.V1Api* | [**removeNasVolumeAccessControlPost**](docs/V1Api.md#removeNasVolumeAccessControlPost) | **POST** /removeNasVolumeAccessControl | 
-*Server.V1Api* | [**setNasVolumeAccessControlGet**](docs/V1Api.md#setNasVolumeAccessControlGet) | **GET** /setNasVolumeAccessControl | 
-*Server.V1Api* | [**setNasVolumeAccessControlPost**](docs/V1Api.md#setNasVolumeAccessControlPost) | **POST** /setNasVolumeAccessControl | 
-*Server.V1Api* | [**startServerInstancesGet**](docs/V1Api.md#startServerInstancesGet) | **GET** /startServerInstances | 
-*Server.V1Api* | [**startServerInstancesPost**](docs/V1Api.md#startServerInstancesPost) | **POST** /startServerInstances | 
-*Server.V1Api* | [**stopServerInstancesGet**](docs/V1Api.md#stopServerInstancesGet) | **GET** /stopServerInstances | 
-*Server.V1Api* | [**stopServerInstancesPost**](docs/V1Api.md#stopServerInstancesPost) | **POST** /stopServerInstances | 
-*Server.V1Api* | [**terminateServerInstancesGet**](docs/V1Api.md#terminateServerInstancesGet) | **GET** /terminateServerInstances | 
-*Server.V1Api* | [**terminateServerInstancesPost**](docs/V1Api.md#terminateServerInstancesPost) | **POST** /terminateServerInstances | 
+*Server.V2Api* | [**addNasVolumeAccessControl**](docs/V2Api.md#addNasVolumeAccessControl) | **POST** /addNasVolumeAccessControl | 
+*Server.V2Api* | [**addPortForwardingRules**](docs/V2Api.md#addPortForwardingRules) | **POST** /addPortForwardingRules | 
+*Server.V2Api* | [**associatePublicIpWithServerInstance**](docs/V2Api.md#associatePublicIpWithServerInstance) | **POST** /associatePublicIpWithServerInstance | 
+*Server.V2Api* | [**changeNasVolumeSize**](docs/V2Api.md#changeNasVolumeSize) | **POST** /changeNasVolumeSize | 
+*Server.V2Api* | [**changeServerInstanceSpec**](docs/V2Api.md#changeServerInstanceSpec) | **POST** /changeServerInstanceSpec | 
+*Server.V2Api* | [**createBlockStorageInstance**](docs/V2Api.md#createBlockStorageInstance) | **POST** /createBlockStorageInstance | 
+*Server.V2Api* | [**createLoginKey**](docs/V2Api.md#createLoginKey) | **POST** /createLoginKey | 
+*Server.V2Api* | [**createMemberServerImage**](docs/V2Api.md#createMemberServerImage) | **POST** /createMemberServerImage | 
+*Server.V2Api* | [**createNasVolumeInstance**](docs/V2Api.md#createNasVolumeInstance) | **POST** /createNasVolumeInstance | 
+*Server.V2Api* | [**createPublicIpInstance**](docs/V2Api.md#createPublicIpInstance) | **POST** /createPublicIpInstance | 
+*Server.V2Api* | [**createServerInstances**](docs/V2Api.md#createServerInstances) | **POST** /createServerInstances | 
+*Server.V2Api* | [**deleteBlockStorageInstances**](docs/V2Api.md#deleteBlockStorageInstances) | **POST** /deleteBlockStorageInstances | 
+*Server.V2Api* | [**deleteLoginKey**](docs/V2Api.md#deleteLoginKey) | **POST** /deleteLoginKey | 
+*Server.V2Api* | [**deleteMemberServerImages**](docs/V2Api.md#deleteMemberServerImages) | **POST** /deleteMemberServerImages | 
+*Server.V2Api* | [**deleteNasVolumeInstance**](docs/V2Api.md#deleteNasVolumeInstance) | **POST** /deleteNasVolumeInstance | 
+*Server.V2Api* | [**deletePortForwardingRules**](docs/V2Api.md#deletePortForwardingRules) | **POST** /deletePortForwardingRules | 
+*Server.V2Api* | [**deletePublicIpInstances**](docs/V2Api.md#deletePublicIpInstances) | **POST** /deletePublicIpInstances | 
+*Server.V2Api* | [**disassociatePublicIpFromServerInstance**](docs/V2Api.md#disassociatePublicIpFromServerInstance) | **POST** /disassociatePublicIpFromServerInstance | 
+*Server.V2Api* | [**getAccessControlGroupList**](docs/V2Api.md#getAccessControlGroupList) | **POST** /getAccessControlGroupList | 
+*Server.V2Api* | [**getAccessControlGroupServerInstanceList**](docs/V2Api.md#getAccessControlGroupServerInstanceList) | **POST** /getAccessControlGroupServerInstanceList | 
+*Server.V2Api* | [**getAccessControlRuleList**](docs/V2Api.md#getAccessControlRuleList) | **POST** /getAccessControlRuleList | 
+*Server.V2Api* | [**getBlockStorageInstanceList**](docs/V2Api.md#getBlockStorageInstanceList) | **POST** /getBlockStorageInstanceList | 
+*Server.V2Api* | [**getBlockStorageSnapshotInstanceList**](docs/V2Api.md#getBlockStorageSnapshotInstanceList) | **POST** /getBlockStorageSnapshotInstanceList | 
+*Server.V2Api* | [**getLoginKeyList**](docs/V2Api.md#getLoginKeyList) | **POST** /getLoginKeyList | 
+*Server.V2Api* | [**getMemberServerImageList**](docs/V2Api.md#getMemberServerImageList) | **POST** /getMemberServerImageList | 
+*Server.V2Api* | [**getNasVolumeInstanceList**](docs/V2Api.md#getNasVolumeInstanceList) | **POST** /getNasVolumeInstanceList | 
+*Server.V2Api* | [**getNasVolumeInstanceRatingList**](docs/V2Api.md#getNasVolumeInstanceRatingList) | **POST** /getNasVolumeInstanceRatingList | 
+*Server.V2Api* | [**getPortForwardingRuleList**](docs/V2Api.md#getPortForwardingRuleList) | **POST** /getPortForwardingRuleList | 
+*Server.V2Api* | [**getPublicIpInstanceList**](docs/V2Api.md#getPublicIpInstanceList) | **POST** /getPublicIpInstanceList | 
+*Server.V2Api* | [**getPublicIpTargetServerInstanceList**](docs/V2Api.md#getPublicIpTargetServerInstanceList) | **POST** /getPublicIpTargetServerInstanceList | 
+*Server.V2Api* | [**getRaidList**](docs/V2Api.md#getRaidList) | **POST** /getRaidList | 
+*Server.V2Api* | [**getRegionList**](docs/V2Api.md#getRegionList) | **POST** /getRegionList | 
+*Server.V2Api* | [**getRootPassword**](docs/V2Api.md#getRootPassword) | **POST** /getRootPassword | 
+*Server.V2Api* | [**getServerImageProductList**](docs/V2Api.md#getServerImageProductList) | **POST** /getServerImageProductList | 
+*Server.V2Api* | [**getServerInstanceList**](docs/V2Api.md#getServerInstanceList) | **POST** /getServerInstanceList | 
+*Server.V2Api* | [**getServerProductList**](docs/V2Api.md#getServerProductList) | **POST** /getServerProductList | 
+*Server.V2Api* | [**getZoneList**](docs/V2Api.md#getZoneList) | **POST** /getZoneList | 
+*Server.V2Api* | [**rebootServerInstances**](docs/V2Api.md#rebootServerInstances) | **POST** /rebootServerInstances | 
+*Server.V2Api* | [**recreateServerInstance**](docs/V2Api.md#recreateServerInstance) | **POST** /recreateServerInstance | 
+*Server.V2Api* | [**removeNasVolumeAccessControl**](docs/V2Api.md#removeNasVolumeAccessControl) | **POST** /removeNasVolumeAccessControl | 
+*Server.V2Api* | [**setNasVolumeAccessControl**](docs/V2Api.md#setNasVolumeAccessControl) | **POST** /setNasVolumeAccessControl | 
+*Server.V2Api* | [**startServerInstances**](docs/V2Api.md#startServerInstances) | **POST** /startServerInstances | 
+*Server.V2Api* | [**stopServerInstances**](docs/V2Api.md#stopServerInstances) | **POST** /stopServerInstances | 
+*Server.V2Api* | [**terminateServerInstances**](docs/V2Api.md#terminateServerInstances) | **POST** /terminateServerInstances | 
 
 
 ## Documentation for Models
 
  - [Server.AccessControlGroup](docs/AccessControlGroup.md)
- - [Server.AccessControlGroupRequest](docs/AccessControlGroupRequest.md)
+ - [Server.AccessControlRule](docs/AccessControlRule.md)
+ - [Server.AddNasVolumeAccessControlRequest](docs/AddNasVolumeAccessControlRequest.md)
+ - [Server.AddNasVolumeAccessControlResponse](docs/AddNasVolumeAccessControlResponse.md)
+ - [Server.AddPortForwardingRulesRequest](docs/AddPortForwardingRulesRequest.md)
  - [Server.AddPortForwardingRulesResponse](docs/AddPortForwardingRulesResponse.md)
  - [Server.AssociatePublicIpWithServerInstanceRequest](docs/AssociatePublicIpWithServerInstanceRequest.md)
  - [Server.AssociatePublicIpWithServerInstanceResponse](docs/AssociatePublicIpWithServerInstanceResponse.md)
  - [Server.BlockStorageInstance](docs/BlockStorageInstance.md)
- - [Server.BlockStorageInstanceNoList](docs/BlockStorageInstanceNoList.md)
- - [Server.BlockStorageInstanceRequest](docs/BlockStorageInstanceRequest.md)
  - [Server.BlockStorageSnapshotInstance](docs/BlockStorageSnapshotInstance.md)
  - [Server.ChangeNasVolumeSizeRequest](docs/ChangeNasVolumeSizeRequest.md)
+ - [Server.ChangeNasVolumeSizeResponse](docs/ChangeNasVolumeSizeResponse.md)
  - [Server.ChangeServerInstanceSpecRequest](docs/ChangeServerInstanceSpecRequest.md)
  - [Server.ChangeServerInstanceSpecResponse](docs/ChangeServerInstanceSpecResponse.md)
  - [Server.CommonCode](docs/CommonCode.md)
@@ -188,32 +146,45 @@ Class | Method | HTTP request | Description
  - [Server.CreateMemberServerImageRequest](docs/CreateMemberServerImageRequest.md)
  - [Server.CreateMemberServerImageResponse](docs/CreateMemberServerImageResponse.md)
  - [Server.CreateNasVolumeInstanceRequest](docs/CreateNasVolumeInstanceRequest.md)
+ - [Server.CreateNasVolumeInstanceResponse](docs/CreateNasVolumeInstanceResponse.md)
  - [Server.CreatePublicIpInstanceRequest](docs/CreatePublicIpInstanceRequest.md)
  - [Server.CreatePublicIpInstanceResponse](docs/CreatePublicIpInstanceResponse.md)
  - [Server.CreateServerInstancesRequest](docs/CreateServerInstancesRequest.md)
  - [Server.CreateServerInstancesResponse](docs/CreateServerInstancesResponse.md)
+ - [Server.DeleteBlockStorageInstancesRequest](docs/DeleteBlockStorageInstancesRequest.md)
  - [Server.DeleteBlockStorageInstancesResponse](docs/DeleteBlockStorageInstancesResponse.md)
  - [Server.DeleteLoginKeyRequest](docs/DeleteLoginKeyRequest.md)
  - [Server.DeleteLoginKeyResponse](docs/DeleteLoginKeyResponse.md)
+ - [Server.DeleteMemberServerImagesRequest](docs/DeleteMemberServerImagesRequest.md)
  - [Server.DeleteMemberServerImagesResponse](docs/DeleteMemberServerImagesResponse.md)
  - [Server.DeleteNasVolumeInstanceRequest](docs/DeleteNasVolumeInstanceRequest.md)
+ - [Server.DeleteNasVolumeInstanceResponse](docs/DeleteNasVolumeInstanceResponse.md)
+ - [Server.DeletePortForwardingRulesRequest](docs/DeletePortForwardingRulesRequest.md)
  - [Server.DeletePortForwardingRulesResponse](docs/DeletePortForwardingRulesResponse.md)
  - [Server.DeletePublicIpInstancesResponse](docs/DeletePublicIpInstancesResponse.md)
  - [Server.DisassociatePublicIpFromServerInstanceRequest](docs/DisassociatePublicIpFromServerInstanceRequest.md)
  - [Server.DisassociatePublicIpFromServerInstanceResponse](docs/DisassociatePublicIpFromServerInstanceResponse.md)
+ - [Server.GetAccessControlGroupListRequest](docs/GetAccessControlGroupListRequest.md)
  - [Server.GetAccessControlGroupListResponse](docs/GetAccessControlGroupListResponse.md)
  - [Server.GetAccessControlGroupServerInstanceListRequest](docs/GetAccessControlGroupServerInstanceListRequest.md)
  - [Server.GetAccessControlGroupServerInstanceListResponse](docs/GetAccessControlGroupServerInstanceListResponse.md)
  - [Server.GetAccessControlRuleListRequest](docs/GetAccessControlRuleListRequest.md)
+ - [Server.GetAccessControlRuleListResponse](docs/GetAccessControlRuleListResponse.md)
+ - [Server.GetBlockStorageInstanceListRequest](docs/GetBlockStorageInstanceListRequest.md)
  - [Server.GetBlockStorageInstanceListResponse](docs/GetBlockStorageInstanceListResponse.md)
  - [Server.GetBlockStorageSnapshotInstanceListRequest](docs/GetBlockStorageSnapshotInstanceListRequest.md)
  - [Server.GetBlockStorageSnapshotInstanceListResponse](docs/GetBlockStorageSnapshotInstanceListResponse.md)
  - [Server.GetLoginKeyListRequest](docs/GetLoginKeyListRequest.md)
  - [Server.GetLoginKeyListResponse](docs/GetLoginKeyListResponse.md)
+ - [Server.GetMemberServerImageListRequest](docs/GetMemberServerImageListRequest.md)
  - [Server.GetMemberServerImageListResponse](docs/GetMemberServerImageListResponse.md)
+ - [Server.GetNasVolumeInstanceListRequest](docs/GetNasVolumeInstanceListRequest.md)
+ - [Server.GetNasVolumeInstanceListResponse](docs/GetNasVolumeInstanceListResponse.md)
  - [Server.GetNasVolumeInstanceRatingListRequest](docs/GetNasVolumeInstanceRatingListRequest.md)
+ - [Server.GetNasVolumeInstanceRatingListResponse](docs/GetNasVolumeInstanceRatingListResponse.md)
  - [Server.GetPortForwardingRuleListRequest](docs/GetPortForwardingRuleListRequest.md)
  - [Server.GetPortForwardingRuleListResponse](docs/GetPortForwardingRuleListResponse.md)
+ - [Server.GetPublicIpInstanceListRequest](docs/GetPublicIpInstanceListRequest.md)
  - [Server.GetPublicIpInstanceListResponse](docs/GetPublicIpInstanceListResponse.md)
  - [Server.GetPublicIpTargetServerInstanceListRequest](docs/GetPublicIpTargetServerInstanceListRequest.md)
  - [Server.GetPublicIpTargetServerInstanceListResponse](docs/GetPublicIpTargetServerInstanceListResponse.md)
@@ -233,33 +204,30 @@ Class | Method | HTTP request | Description
  - [Server.GetZoneListResponse](docs/GetZoneListResponse.md)
  - [Server.LoginKey](docs/LoginKey.md)
  - [Server.MemberServerImage](docs/MemberServerImage.md)
- - [Server.MemberServerImageNoList](docs/MemberServerImageNoList.md)
- - [Server.MemberServerImageRequest](docs/MemberServerImageRequest.md)
- - [Server.NasVolumeAccessControl](docs/NasVolumeAccessControl.md)
  - [Server.NasVolumeInstance](docs/NasVolumeInstance.md)
  - [Server.NasVolumeInstanceCustomIp](docs/NasVolumeInstanceCustomIp.md)
- - [Server.NasVolumeInstanceListRequest](docs/NasVolumeInstanceListRequest.md)
- - [Server.NasVolumeInstanceListResponse](docs/NasVolumeInstanceListResponse.md)
  - [Server.NasVolumeInstanceRating](docs/NasVolumeInstanceRating.md)
- - [Server.NasVolumeInstanceRatingListResponse](docs/NasVolumeInstanceRatingListResponse.md)
- - [Server.NasVolumeServerInstance](docs/NasVolumeServerInstance.md)
  - [Server.PortForwardingRule](docs/PortForwardingRule.md)
- - [Server.PortForwardingRuleRequest](docs/PortForwardingRuleRequest.md)
- - [Server.PortForwardingRuleRequestPortForwardingRule](docs/PortForwardingRuleRequestPortForwardingRule.md)
+ - [Server.PortForwardingRuleParameter](docs/PortForwardingRuleParameter.md)
  - [Server.Product](docs/Product.md)
  - [Server.PublicIpInstance](docs/PublicIpInstance.md)
- - [Server.PublicIpInstanceList](docs/PublicIpInstanceList.md)
- - [Server.PublicIpInstanceNoList](docs/PublicIpInstanceNoList.md)
  - [Server.Raid](docs/Raid.md)
+ - [Server.RebootServerInstancesRequest](docs/RebootServerInstancesRequest.md)
  - [Server.RebootServerInstancesResponse](docs/RebootServerInstancesResponse.md)
  - [Server.RecreateServerInstanceRequest](docs/RecreateServerInstanceRequest.md)
  - [Server.RecreateServerInstanceResponse](docs/RecreateServerInstanceResponse.md)
  - [Server.Region](docs/Region.md)
+ - [Server.RemoveNasVolumeAccessControlRequest](docs/RemoveNasVolumeAccessControlRequest.md)
+ - [Server.RemoveNasVolumeAccessControlResponse](docs/RemoveNasVolumeAccessControlResponse.md)
  - [Server.RootPassword](docs/RootPassword.md)
  - [Server.ServerInstance](docs/ServerInstance.md)
- - [Server.ServerInstanceNoList](docs/ServerInstanceNoList.md)
+ - [Server.SetNasVolumeAccessControlRequest](docs/SetNasVolumeAccessControlRequest.md)
+ - [Server.SetNasVolumeAccessControlResponse](docs/SetNasVolumeAccessControlResponse.md)
+ - [Server.StartServerInstancesRequest](docs/StartServerInstancesRequest.md)
  - [Server.StartServerInstancesResponse](docs/StartServerInstancesResponse.md)
+ - [Server.StopServerInstancesRequest](docs/StopServerInstancesRequest.md)
  - [Server.StopServerInstancesResponse](docs/StopServerInstancesResponse.md)
+ - [Server.TerminateServerInstancesRequest](docs/TerminateServerInstancesRequest.md)
  - [Server.TerminateServerInstancesResponse](docs/TerminateServerInstancesResponse.md)
  - [Server.Zone](docs/Zone.md)
 

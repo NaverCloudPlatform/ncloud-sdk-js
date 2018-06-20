@@ -1,9 +1,8 @@
 {
   "name": "ncloud-server",
-  "version": "0.1.0",
-  "description": "<br/>https://ncloud.beta-apigw.ntruss.com/server/v1",
-  "license": "Unlicense",
+  "version": "0.2.0",
   "homepage": "http://github.com/NaverCloudPlatform/ncloud-sdk-js",
+  "license": "Unlicense",
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"

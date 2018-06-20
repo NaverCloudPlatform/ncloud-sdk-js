@@ -16,6 +16,7 @@ Name | Type | Description | Notes
 **feeSystemTypeCode** | **String** | 요금제구분코드 | [optional] 
 **userData** | **String** | 사용자데이터 | [optional] 
 **zoneNo** | **String** | ZONE번호 | [optional] 
+**accessControlGroupConfigurationNoList** | **[String]** | ACG설정번호리스트 | [optional] 
 **raidTypeName** | **String** | RAID구분이름 | [optional] 
 **responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 

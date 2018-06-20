@@ -7,6 +7,6 @@ Name | Type | Description | Notes
 **returnCode** | **String** |  | [optional] 
 **returnMessage** | **String** |  | [optional] 
 **totalRows** | **Number** |  | [optional] 
-**accessControlGroupList** | [**[ServerInstance]**](ServerInstance.md) |  | [optional] 
+**serverInstanceList** | [**[ServerInstance]**](ServerInstance.md) |  | [optional] 
 
 

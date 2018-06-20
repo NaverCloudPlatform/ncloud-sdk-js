@@ -27,6 +27,6 @@ Name | Type | Description | Notes
 **region** | [**Region**](Region.md) | 리전 | [optional] 
 **zone** | [**Zone**](Zone.md) | ZONE | [optional] 
 **nasVolumeInstanceCustomIpList** | [**[NasVolumeInstanceCustomIp]**](NasVolumeInstanceCustomIp.md) | NAS볼륨커스텀IP리스트 | [optional] 
-**nasVolumeServerInstanceList** | [**[NasVolumeServerInstance]**](NasVolumeServerInstance.md) | NAS볼륨서버인스턴스리스트 | [optional] 
+**nasVolumeServerInstanceList** | [**[ServerInstance]**](ServerInstance.md) | NAS볼륨서버인스턴스리스트 | [optional] 
 
 

@@ -16,6 +16,6 @@ Name | Type | Description | Notes
 **osInformation** | **String** | OS정보 | [optional] 
 **diskType** | [**CommonCode**](CommonCode.md) | 디스크유형 | [optional] 
 **dbKindCode** | **String** | DB유형코드 | [optional] 
-**addBlockStroageSize** | **Number** | 추가블록스토리지사이즈 | [optional] 
+**addBlockStorageSize** | **Number** | 추가블록스토리지사이즈 | [optional] 
 
 
