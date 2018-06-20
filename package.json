@@ -1,13 +1,20 @@
 {
   "name": "ncloud-sdk",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "description": "Naver Cloud Platform Client Library for node",
   "homepage": "https://github.com/NaverCloudPlatform/ncloud-sdk-js",
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "publish_services": "cd lib/services; cd autoscaling; npm publish; cd cdn; npm publish; cd clouddb; npm publish; cd loadbalancer; npm publish; cd monitoring; npm publish; cd server; npm publish",
+    "publish_autoscaling": "cd lib/services/autoscaling; npm publish",
+    "publish_cdn": "cd lib/services/cdn; npm publish",
+    "publish_clouddb": "cd lib/services/clouddb; npm publish",
+    "publish_loadbalancer": "cd lib/services/loadbalancer; npm publish",
+    "publish_monitoring": "cd lib/services/monitoring; npm publish",
+    "publish_server": "cd lib/services/server; npm publish"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
