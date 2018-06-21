@@ -40,8 +40,8 @@ var client = new Server.ApiClient(n.keys());
 var instance = new Server.V2Api(client);
 
 instance.getServerInstanceList({}, function(err, data, response) {
-    if (error) {
-    console.error(error);
+  if (err) {
+    console.error(err);
   } else {
     console.log('API called successfully. Returned data: ', data);
   }
