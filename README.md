@@ -37,7 +37,7 @@ var Server = require('ncloud-server');
 
 var n = new ncloud();
 var client = new Server.ApiClient(n.keys());
-var instance = new Server.V1Api(client);
+var instance = new Server.V2Api(client);
 
 instance.getServerInstanceList({}, function(err, data, response) {
     if (error) {
