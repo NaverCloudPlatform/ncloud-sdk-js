@@ -2,7 +2,7 @@
   "name": "ncloud-autoscaling",
   "authors": "NAVER BUSINESS PLATFORM Corp.",
   "description": "autoscaling client library for Naver Cloud Platform",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "homepage": "http://github.com/NaverCloudPlatform/ncloud-sdk-js",
   "license": "MIT",
   "main": "src/index.js",
