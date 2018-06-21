@@ -46,7 +46,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var Autoscaling = require('autoscaling');
+var Autoscaling = require('ncloud-autoscaling');
 
 var client = new Server.ApiClient({
   apiKey: 'your api key',
