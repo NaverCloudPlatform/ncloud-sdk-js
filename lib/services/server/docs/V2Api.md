@@ -1,6 +1,6 @@
 # Server.V2Api
 
-All URIs are relative to *https://ncloud.beta-apigw.ntruss.com/server/v2*
+All URIs are relative to *https://ncloud.apigw.ntruss.com/server/v2*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -868,7 +868,7 @@ Name | Type | Description  | Notes
 
 <a name="deletePublicIpInstances"></a>
 # **deletePublicIpInstances**
-> DeletePublicIpInstancesResponse deletePublicIpInstances()
+> DeletePublicIpInstancesResponse deletePublicIpInstances(deletePublicIpInstancesRequest)
 
 
 
@@ -885,6 +885,9 @@ var client = new Server.ApiClient({
 
 var apiInstance = new Server.V2Api();
 
+var deletePublicIpInstancesRequest = new Server.DeletePublicIpInstancesRequest(); // DeletePublicIpInstancesRequest | deletePublicIpInstancesRequest
+
+
 var callback = function(error, data, response) {
   if (error) {
     console.error(error);
@@ -892,11 +895,14 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
-apiInstance.deletePublicIpInstances(callback);
+apiInstance.deletePublicIpInstances(deletePublicIpInstancesRequest, callback);
 ```
 
 ### Parameters
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **deletePublicIpInstancesRequest** | [**DeletePublicIpInstancesRequest**](DeletePublicIpInstancesRequest.md)| deletePublicIpInstancesRequest | 
 
 ### Return type
 
@@ -1474,7 +1480,7 @@ Name | Type | Description  | Notes
 
 <a name="getPublicIpInstanceList"></a>
 # **getPublicIpInstanceList**
-> GetPublicIpInstanceListResponse getPublicIpInstanceList()
+> GetPublicIpInstanceListResponse getPublicIpInstanceList(getPublicIpInstanceListRequest)
 
 
 
@@ -1491,6 +1497,9 @@ var client = new Server.ApiClient({
 
 var apiInstance = new Server.V2Api();
 
+var getPublicIpInstanceListRequest = new Server.GetPublicIpInstanceListRequest(); // GetPublicIpInstanceListRequest | getPublicIpInstanceListRequest
+
+
 var callback = function(error, data, response) {
   if (error) {
     console.error(error);
@@ -1498,11 +1507,14 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
-apiInstance.getPublicIpInstanceList(callback);
+apiInstance.getPublicIpInstanceList(getPublicIpInstanceListRequest, callback);
 ```
 
 ### Parameters
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **getPublicIpInstanceListRequest** | [**GetPublicIpInstanceListRequest**](GetPublicIpInstanceListRequest.md)| getPublicIpInstanceListRequest | 
 
 ### Return type
 

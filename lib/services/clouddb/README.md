@@ -1,4 +1,4 @@
-# clouddb
+# ncloud-clouddb
 
 ## Installation
 
@@ -7,14 +7,14 @@
 #### npm
 
 ```shell
-npm install clouddb --save
+npm install ncloud-clouddb --save
 ```
 
 ### For browser
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
 use this library):
 
 ```shell
@@ -46,7 +46,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var Clouddb = require('clouddb');
+var Clouddb = require('ncloud-clouddb');
 
 var client = new Server.ApiClient({
   apiKey: 'your api key',
@@ -72,17 +72,17 @@ apiInstance.createCloudDBInstance(createCloudDBInstanceRequest, callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://ncloud.beta-apigw.ntruss.com/clouddb/v2*
+All URIs are relative to *https://ncloud.apigw.ntruss.com/clouddb/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Clouddb.V2Api* | [**createCloudDBInstance**](docs/V2Api.md#createCloudDBInstance) | **POST** /createCloudDBInstance | 
-*Clouddb.V2Api* | [**deleteCloudDBServerInstance**](docs/V2Api.md#deleteCloudDBServerInstance) | **POST** /deleteCloudDBServerInstance | 
-*Clouddb.V2Api* | [**getCloudDBConfigGroupList**](docs/V2Api.md#getCloudDBConfigGroupList) | **POST** /getCloudDBConfigGroupList | 
-*Clouddb.V2Api* | [**getCloudDBImageProductList**](docs/V2Api.md#getCloudDBImageProductList) | **POST** /getCloudDBImageProductList | 
-*Clouddb.V2Api* | [**getCloudDBInstanceList**](docs/V2Api.md#getCloudDBInstanceList) | **POST** /getCloudDBInstanceList | 
-*Clouddb.V2Api* | [**getCloudDBProductList**](docs/V2Api.md#getCloudDBProductList) | **POST** /getCloudDBProductList | 
-*Clouddb.V2Api* | [**rebootCloudDBServerInstance**](docs/V2Api.md#rebootCloudDBServerInstance) | **POST** /rebootCloudDBServerInstance | 
+*Clouddb.V2Api* | [**createCloudDBInstance**](docs/V2Api.md#createCloudDBInstance) | **POST** /createCloudDBInstance |
+*Clouddb.V2Api* | [**deleteCloudDBServerInstance**](docs/V2Api.md#deleteCloudDBServerInstance) | **POST** /deleteCloudDBServerInstance |
+*Clouddb.V2Api* | [**getCloudDBConfigGroupList**](docs/V2Api.md#getCloudDBConfigGroupList) | **POST** /getCloudDBConfigGroupList |
+*Clouddb.V2Api* | [**getCloudDBImageProductList**](docs/V2Api.md#getCloudDBImageProductList) | **POST** /getCloudDBImageProductList |
+*Clouddb.V2Api* | [**getCloudDBInstanceList**](docs/V2Api.md#getCloudDBInstanceList) | **POST** /getCloudDBInstanceList |
+*Clouddb.V2Api* | [**getCloudDBProductList**](docs/V2Api.md#getCloudDBProductList) | **POST** /getCloudDBProductList |
+*Clouddb.V2Api* | [**rebootCloudDBServerInstance**](docs/V2Api.md#rebootCloudDBServerInstance) | **POST** /rebootCloudDBServerInstance |
 
 
 ## Documentation for Models
@@ -111,3 +111,15 @@ Class | Method | HTTP request | Description
  - [Clouddb.Region](docs/Region.md)
  - [Clouddb.Zone](docs/Zone.md)
 
+
+### License
+
+```
+Copyright 2018 NAVER BUSINESS PLATFORM Corp.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```

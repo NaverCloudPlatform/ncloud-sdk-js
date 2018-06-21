@@ -1,4 +1,4 @@
-# cdn
+# ncloud-cdn
 
 ## Installation
 
@@ -7,14 +7,14 @@
 #### npm
 
 ```shell
-npm install cdn --save
+npm install ncloud-cdn --save
 ```
 
 ### For browser
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
 use this library):
 
 ```shell
@@ -46,7 +46,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var Cdn = require('cdn');
+var Cdn = require('ncloud-cdn');
 
 var client = new Server.ApiClient({
   apiKey: 'your api key',
@@ -72,16 +72,16 @@ apiInstance.getCdnPlusInstanceList(getCdnPlusInstanceListRequest, callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://ncloud.beta-apigw.ntruss.com/cdn/v2*
+All URIs are relative to *https://ncloud.apigw.ntruss.com/cdn/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Cdn.V2Api* | [**getCdnPlusInstanceList**](docs/V2Api.md#getCdnPlusInstanceList) | **POST** /getCdnPlusInstanceList | 
-*Cdn.V2Api* | [**getCdnPlusPurgeHistoryList**](docs/V2Api.md#getCdnPlusPurgeHistoryList) | **POST** /getCdnPlusPurgeHistoryList | 
-*Cdn.V2Api* | [**getGlobalCdnInstanceList**](docs/V2Api.md#getGlobalCdnInstanceList) | **POST** /getGlobalCdnInstanceList | 
-*Cdn.V2Api* | [**getGlobalCdnPurgeHistoryList**](docs/V2Api.md#getGlobalCdnPurgeHistoryList) | **POST** /getGlobalCdnPurgeHistoryList | 
-*Cdn.V2Api* | [**requestCdnPlusPurge**](docs/V2Api.md#requestCdnPlusPurge) | **POST** /requestCdnPlusPurge | 
-*Cdn.V2Api* | [**requestGlobalCdnPurge**](docs/V2Api.md#requestGlobalCdnPurge) | **POST** /requestGlobalCdnPurge | 
+*Cdn.V2Api* | [**getCdnPlusInstanceList**](docs/V2Api.md#getCdnPlusInstanceList) | **POST** /getCdnPlusInstanceList |
+*Cdn.V2Api* | [**getCdnPlusPurgeHistoryList**](docs/V2Api.md#getCdnPlusPurgeHistoryList) | **POST** /getCdnPlusPurgeHistoryList |
+*Cdn.V2Api* | [**getGlobalCdnInstanceList**](docs/V2Api.md#getGlobalCdnInstanceList) | **POST** /getGlobalCdnInstanceList |
+*Cdn.V2Api* | [**getGlobalCdnPurgeHistoryList**](docs/V2Api.md#getGlobalCdnPurgeHistoryList) | **POST** /getGlobalCdnPurgeHistoryList |
+*Cdn.V2Api* | [**requestCdnPlusPurge**](docs/V2Api.md#requestCdnPlusPurge) | **POST** /requestCdnPlusPurge |
+*Cdn.V2Api* | [**requestGlobalCdnPurge**](docs/V2Api.md#requestGlobalCdnPurge) | **POST** /requestGlobalCdnPurge |
 
 
 ## Documentation for Models
@@ -107,3 +107,15 @@ Class | Method | HTTP request | Description
  - [Cdn.RequestGlobalCdnPurgeRequest](docs/RequestGlobalCdnPurgeRequest.md)
  - [Cdn.RequestGlobalCdnPurgeResponse](docs/RequestGlobalCdnPurgeResponse.md)
 
+
+### License
+
+```
+Copyright 2018 NAVER BUSINESS PLATFORM Corp.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```

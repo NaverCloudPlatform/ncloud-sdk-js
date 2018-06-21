@@ -1,8 +1,10 @@
 {
   "name": "ncloud-server",
-  "version": "0.2.0",
+  "authors": "NAVER BUSINESS PLATFORM Corp.",
+  "description": "server client library for Naver Cloud Platform",
+  "version": "1.0.0",
   "homepage": "http://github.com/NaverCloudPlatform/ncloud-sdk-js",
-  "license": "Unlicense",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"

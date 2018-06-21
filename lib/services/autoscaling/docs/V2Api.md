@@ -1,6 +1,6 @@
 # Autoscaling.V2Api
 
-All URIs are relative to *https://ncloud.beta-apigw.ntruss.com/autoscaling/v2*
+All URIs are relative to *https://ncloud.apigw.ntruss.com/autoscaling/v2*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

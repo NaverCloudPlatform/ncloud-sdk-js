@@ -1,8 +1,10 @@
 {
   "name": "ncloud-monitoring",
+  "authors": "NAVER BUSINESS PLATFORM Corp.",
+  "description": "monitoring client library for Naver Cloud Platform",
   "version": "1.0.0",
   "homepage": "http://github.com/NaverCloudPlatform/ncloud-sdk-js",
-  "license": "Unlicense",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"
