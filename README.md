@@ -50,8 +50,6 @@ instance.getServerInstanceList({}, function(err, data, response) {
 
 ## Documentation for individual modules
 
-All URIs are relative to *https://ncloud.apigw.ntruss.com/server/v1*
-
 Services | Documentation | Install Command
 ------------ | ------------- | -------------
 *Server* | [**Server**](lib/services/server/README.md) | npm install ncloud-server
