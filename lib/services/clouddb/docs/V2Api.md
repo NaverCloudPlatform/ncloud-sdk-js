@@ -23,11 +23,10 @@ CloudDB인스턴스생성
 
 ### Example
 ```javascript
-var Clouddb = require('clouddb');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Clouddb = require('ncloud-clouddb');
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Clouddb.V2Api();
@@ -74,11 +73,10 @@ CloudDB서버인스턴스삭제
 
 ### Example
 ```javascript
-var Clouddb = require('clouddb');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Clouddb = require('ncloud-clouddb');
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Clouddb.V2Api();
@@ -125,11 +123,10 @@ CloudDB설정그룹리스트조회
 
 ### Example
 ```javascript
-var Clouddb = require('clouddb');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Clouddb = require('ncloud-clouddb');
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Clouddb.V2Api();
@@ -176,11 +173,10 @@ CloudDB이미지상품리스트
 
 ### Example
 ```javascript
-var Clouddb = require('clouddb');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Clouddb = require('ncloud-clouddb');
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Clouddb.V2Api();
@@ -227,11 +223,10 @@ CloudDB인스턴스리스트조회
 
 ### Example
 ```javascript
-var Clouddb = require('clouddb');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Clouddb = require('ncloud-clouddb');
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Clouddb.V2Api();
@@ -278,11 +273,10 @@ CloudDB상품리스트조회
 
 ### Example
 ```javascript
-var Clouddb = require('clouddb');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Clouddb = require('ncloud-clouddb');
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Clouddb.V2Api();
@@ -329,11 +323,10 @@ CloudDB서버인스턴스재부팅
 
 ### Example
 ```javascript
-var Clouddb = require('clouddb');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Clouddb = require('ncloud-clouddb');
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Clouddb.V2Api();

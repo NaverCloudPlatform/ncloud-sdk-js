@@ -26,11 +26,10 @@ Method | HTTP request | Description
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -77,11 +76,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -128,11 +126,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -179,11 +176,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -230,11 +226,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -281,11 +276,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -332,11 +326,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -383,11 +376,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -434,11 +426,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();
@@ -485,11 +476,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Loadbalancer = require('loadbalancer');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Loadbalancer = require('ncloud-loadbalancer');
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Loadbalancer.V2Api();

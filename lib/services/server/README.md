@@ -14,7 +14,7 @@ npm install ncloud-server --save
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
 use this library):
 
 ```shell
@@ -49,7 +49,6 @@ Please follow the [installation](#installation) instruction and execute the foll
 var Server = require('ncloud-server');
 
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
   secretKey: 'your secret key',
 });
@@ -76,50 +75,50 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/server/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Server.V2Api* | [**addNasVolumeAccessControl**](docs/V2Api.md#addNasVolumeAccessControl) | **POST** /addNasVolumeAccessControl |
-*Server.V2Api* | [**addPortForwardingRules**](docs/V2Api.md#addPortForwardingRules) | **POST** /addPortForwardingRules |
-*Server.V2Api* | [**associatePublicIpWithServerInstance**](docs/V2Api.md#associatePublicIpWithServerInstance) | **POST** /associatePublicIpWithServerInstance |
-*Server.V2Api* | [**changeNasVolumeSize**](docs/V2Api.md#changeNasVolumeSize) | **POST** /changeNasVolumeSize |
-*Server.V2Api* | [**changeServerInstanceSpec**](docs/V2Api.md#changeServerInstanceSpec) | **POST** /changeServerInstanceSpec |
-*Server.V2Api* | [**createBlockStorageInstance**](docs/V2Api.md#createBlockStorageInstance) | **POST** /createBlockStorageInstance |
-*Server.V2Api* | [**createLoginKey**](docs/V2Api.md#createLoginKey) | **POST** /createLoginKey |
-*Server.V2Api* | [**createMemberServerImage**](docs/V2Api.md#createMemberServerImage) | **POST** /createMemberServerImage |
-*Server.V2Api* | [**createNasVolumeInstance**](docs/V2Api.md#createNasVolumeInstance) | **POST** /createNasVolumeInstance |
-*Server.V2Api* | [**createPublicIpInstance**](docs/V2Api.md#createPublicIpInstance) | **POST** /createPublicIpInstance |
-*Server.V2Api* | [**createServerInstances**](docs/V2Api.md#createServerInstances) | **POST** /createServerInstances |
-*Server.V2Api* | [**deleteBlockStorageInstances**](docs/V2Api.md#deleteBlockStorageInstances) | **POST** /deleteBlockStorageInstances |
-*Server.V2Api* | [**deleteLoginKey**](docs/V2Api.md#deleteLoginKey) | **POST** /deleteLoginKey |
-*Server.V2Api* | [**deleteMemberServerImages**](docs/V2Api.md#deleteMemberServerImages) | **POST** /deleteMemberServerImages |
-*Server.V2Api* | [**deleteNasVolumeInstance**](docs/V2Api.md#deleteNasVolumeInstance) | **POST** /deleteNasVolumeInstance |
-*Server.V2Api* | [**deletePortForwardingRules**](docs/V2Api.md#deletePortForwardingRules) | **POST** /deletePortForwardingRules |
-*Server.V2Api* | [**deletePublicIpInstances**](docs/V2Api.md#deletePublicIpInstances) | **POST** /deletePublicIpInstances |
-*Server.V2Api* | [**disassociatePublicIpFromServerInstance**](docs/V2Api.md#disassociatePublicIpFromServerInstance) | **POST** /disassociatePublicIpFromServerInstance |
-*Server.V2Api* | [**getAccessControlGroupList**](docs/V2Api.md#getAccessControlGroupList) | **POST** /getAccessControlGroupList |
-*Server.V2Api* | [**getAccessControlGroupServerInstanceList**](docs/V2Api.md#getAccessControlGroupServerInstanceList) | **POST** /getAccessControlGroupServerInstanceList |
-*Server.V2Api* | [**getAccessControlRuleList**](docs/V2Api.md#getAccessControlRuleList) | **POST** /getAccessControlRuleList |
-*Server.V2Api* | [**getBlockStorageInstanceList**](docs/V2Api.md#getBlockStorageInstanceList) | **POST** /getBlockStorageInstanceList |
-*Server.V2Api* | [**getBlockStorageSnapshotInstanceList**](docs/V2Api.md#getBlockStorageSnapshotInstanceList) | **POST** /getBlockStorageSnapshotInstanceList |
-*Server.V2Api* | [**getLoginKeyList**](docs/V2Api.md#getLoginKeyList) | **POST** /getLoginKeyList |
-*Server.V2Api* | [**getMemberServerImageList**](docs/V2Api.md#getMemberServerImageList) | **POST** /getMemberServerImageList |
-*Server.V2Api* | [**getNasVolumeInstanceList**](docs/V2Api.md#getNasVolumeInstanceList) | **POST** /getNasVolumeInstanceList |
-*Server.V2Api* | [**getNasVolumeInstanceRatingList**](docs/V2Api.md#getNasVolumeInstanceRatingList) | **POST** /getNasVolumeInstanceRatingList |
-*Server.V2Api* | [**getPortForwardingRuleList**](docs/V2Api.md#getPortForwardingRuleList) | **POST** /getPortForwardingRuleList |
-*Server.V2Api* | [**getPublicIpInstanceList**](docs/V2Api.md#getPublicIpInstanceList) | **POST** /getPublicIpInstanceList |
-*Server.V2Api* | [**getPublicIpTargetServerInstanceList**](docs/V2Api.md#getPublicIpTargetServerInstanceList) | **POST** /getPublicIpTargetServerInstanceList |
-*Server.V2Api* | [**getRaidList**](docs/V2Api.md#getRaidList) | **POST** /getRaidList |
-*Server.V2Api* | [**getRegionList**](docs/V2Api.md#getRegionList) | **POST** /getRegionList |
-*Server.V2Api* | [**getRootPassword**](docs/V2Api.md#getRootPassword) | **POST** /getRootPassword |
-*Server.V2Api* | [**getServerImageProductList**](docs/V2Api.md#getServerImageProductList) | **POST** /getServerImageProductList |
-*Server.V2Api* | [**getServerInstanceList**](docs/V2Api.md#getServerInstanceList) | **POST** /getServerInstanceList |
-*Server.V2Api* | [**getServerProductList**](docs/V2Api.md#getServerProductList) | **POST** /getServerProductList |
-*Server.V2Api* | [**getZoneList**](docs/V2Api.md#getZoneList) | **POST** /getZoneList |
-*Server.V2Api* | [**rebootServerInstances**](docs/V2Api.md#rebootServerInstances) | **POST** /rebootServerInstances |
-*Server.V2Api* | [**recreateServerInstance**](docs/V2Api.md#recreateServerInstance) | **POST** /recreateServerInstance |
-*Server.V2Api* | [**removeNasVolumeAccessControl**](docs/V2Api.md#removeNasVolumeAccessControl) | **POST** /removeNasVolumeAccessControl |
-*Server.V2Api* | [**setNasVolumeAccessControl**](docs/V2Api.md#setNasVolumeAccessControl) | **POST** /setNasVolumeAccessControl |
-*Server.V2Api* | [**startServerInstances**](docs/V2Api.md#startServerInstances) | **POST** /startServerInstances |
-*Server.V2Api* | [**stopServerInstances**](docs/V2Api.md#stopServerInstances) | **POST** /stopServerInstances |
-*Server.V2Api* | [**terminateServerInstances**](docs/V2Api.md#terminateServerInstances) | **POST** /terminateServerInstances |
+*Server.V2Api* | [**addNasVolumeAccessControl**](docs/V2Api.md#addNasVolumeAccessControl) | **POST** /addNasVolumeAccessControl | 
+*Server.V2Api* | [**addPortForwardingRules**](docs/V2Api.md#addPortForwardingRules) | **POST** /addPortForwardingRules | 
+*Server.V2Api* | [**associatePublicIpWithServerInstance**](docs/V2Api.md#associatePublicIpWithServerInstance) | **POST** /associatePublicIpWithServerInstance | 
+*Server.V2Api* | [**changeNasVolumeSize**](docs/V2Api.md#changeNasVolumeSize) | **POST** /changeNasVolumeSize | 
+*Server.V2Api* | [**changeServerInstanceSpec**](docs/V2Api.md#changeServerInstanceSpec) | **POST** /changeServerInstanceSpec | 
+*Server.V2Api* | [**createBlockStorageInstance**](docs/V2Api.md#createBlockStorageInstance) | **POST** /createBlockStorageInstance | 
+*Server.V2Api* | [**createLoginKey**](docs/V2Api.md#createLoginKey) | **POST** /createLoginKey | 
+*Server.V2Api* | [**createMemberServerImage**](docs/V2Api.md#createMemberServerImage) | **POST** /createMemberServerImage | 
+*Server.V2Api* | [**createNasVolumeInstance**](docs/V2Api.md#createNasVolumeInstance) | **POST** /createNasVolumeInstance | 
+*Server.V2Api* | [**createPublicIpInstance**](docs/V2Api.md#createPublicIpInstance) | **POST** /createPublicIpInstance | 
+*Server.V2Api* | [**createServerInstances**](docs/V2Api.md#createServerInstances) | **POST** /createServerInstances | 
+*Server.V2Api* | [**deleteBlockStorageInstances**](docs/V2Api.md#deleteBlockStorageInstances) | **POST** /deleteBlockStorageInstances | 
+*Server.V2Api* | [**deleteLoginKey**](docs/V2Api.md#deleteLoginKey) | **POST** /deleteLoginKey | 
+*Server.V2Api* | [**deleteMemberServerImages**](docs/V2Api.md#deleteMemberServerImages) | **POST** /deleteMemberServerImages | 
+*Server.V2Api* | [**deleteNasVolumeInstance**](docs/V2Api.md#deleteNasVolumeInstance) | **POST** /deleteNasVolumeInstance | 
+*Server.V2Api* | [**deletePortForwardingRules**](docs/V2Api.md#deletePortForwardingRules) | **POST** /deletePortForwardingRules | 
+*Server.V2Api* | [**deletePublicIpInstances**](docs/V2Api.md#deletePublicIpInstances) | **POST** /deletePublicIpInstances | 
+*Server.V2Api* | [**disassociatePublicIpFromServerInstance**](docs/V2Api.md#disassociatePublicIpFromServerInstance) | **POST** /disassociatePublicIpFromServerInstance | 
+*Server.V2Api* | [**getAccessControlGroupList**](docs/V2Api.md#getAccessControlGroupList) | **POST** /getAccessControlGroupList | 
+*Server.V2Api* | [**getAccessControlGroupServerInstanceList**](docs/V2Api.md#getAccessControlGroupServerInstanceList) | **POST** /getAccessControlGroupServerInstanceList | 
+*Server.V2Api* | [**getAccessControlRuleList**](docs/V2Api.md#getAccessControlRuleList) | **POST** /getAccessControlRuleList | 
+*Server.V2Api* | [**getBlockStorageInstanceList**](docs/V2Api.md#getBlockStorageInstanceList) | **POST** /getBlockStorageInstanceList | 
+*Server.V2Api* | [**getBlockStorageSnapshotInstanceList**](docs/V2Api.md#getBlockStorageSnapshotInstanceList) | **POST** /getBlockStorageSnapshotInstanceList | 
+*Server.V2Api* | [**getLoginKeyList**](docs/V2Api.md#getLoginKeyList) | **POST** /getLoginKeyList | 
+*Server.V2Api* | [**getMemberServerImageList**](docs/V2Api.md#getMemberServerImageList) | **POST** /getMemberServerImageList | 
+*Server.V2Api* | [**getNasVolumeInstanceList**](docs/V2Api.md#getNasVolumeInstanceList) | **POST** /getNasVolumeInstanceList | 
+*Server.V2Api* | [**getNasVolumeInstanceRatingList**](docs/V2Api.md#getNasVolumeInstanceRatingList) | **POST** /getNasVolumeInstanceRatingList | 
+*Server.V2Api* | [**getPortForwardingRuleList**](docs/V2Api.md#getPortForwardingRuleList) | **POST** /getPortForwardingRuleList | 
+*Server.V2Api* | [**getPublicIpInstanceList**](docs/V2Api.md#getPublicIpInstanceList) | **POST** /getPublicIpInstanceList | 
+*Server.V2Api* | [**getPublicIpTargetServerInstanceList**](docs/V2Api.md#getPublicIpTargetServerInstanceList) | **POST** /getPublicIpTargetServerInstanceList | 
+*Server.V2Api* | [**getRaidList**](docs/V2Api.md#getRaidList) | **POST** /getRaidList | 
+*Server.V2Api* | [**getRegionList**](docs/V2Api.md#getRegionList) | **POST** /getRegionList | 
+*Server.V2Api* | [**getRootPassword**](docs/V2Api.md#getRootPassword) | **POST** /getRootPassword | 
+*Server.V2Api* | [**getServerImageProductList**](docs/V2Api.md#getServerImageProductList) | **POST** /getServerImageProductList | 
+*Server.V2Api* | [**getServerInstanceList**](docs/V2Api.md#getServerInstanceList) | **POST** /getServerInstanceList | 
+*Server.V2Api* | [**getServerProductList**](docs/V2Api.md#getServerProductList) | **POST** /getServerProductList | 
+*Server.V2Api* | [**getZoneList**](docs/V2Api.md#getZoneList) | **POST** /getZoneList | 
+*Server.V2Api* | [**rebootServerInstances**](docs/V2Api.md#rebootServerInstances) | **POST** /rebootServerInstances | 
+*Server.V2Api* | [**recreateServerInstance**](docs/V2Api.md#recreateServerInstance) | **POST** /recreateServerInstance | 
+*Server.V2Api* | [**removeNasVolumeAccessControl**](docs/V2Api.md#removeNasVolumeAccessControl) | **POST** /removeNasVolumeAccessControl | 
+*Server.V2Api* | [**setNasVolumeAccessControl**](docs/V2Api.md#setNasVolumeAccessControl) | **POST** /setNasVolumeAccessControl | 
+*Server.V2Api* | [**startServerInstances**](docs/V2Api.md#startServerInstances) | **POST** /startServerInstances | 
+*Server.V2Api* | [**stopServerInstances**](docs/V2Api.md#stopServerInstances) | **POST** /stopServerInstances | 
+*Server.V2Api* | [**terminateServerInstances**](docs/V2Api.md#terminateServerInstances) | **POST** /terminateServerInstances | 
 
 
 ## Documentation for Models

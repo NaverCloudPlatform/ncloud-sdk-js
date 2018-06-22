@@ -18,11 +18,10 @@ B.메트릭 리스트 조회
 
 ### Example
 ```javascript
-var Monitoring = require('monitoring');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Monitoring = require('ncloud-monitoring');
+var client = new Monitoring.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Monitoring.V2Api();
@@ -69,11 +68,10 @@ A.메트릭 통계 조회
 
 ### Example
 ```javascript
-var Monitoring = require('monitoring');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Monitoring = require('ncloud-monitoring');
+var client = new Monitoring.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Monitoring.V2Api();

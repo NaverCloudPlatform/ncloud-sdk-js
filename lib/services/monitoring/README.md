@@ -14,7 +14,7 @@ npm install ncloud-monitoring --save
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
 use this library):
 
 ```shell
@@ -48,8 +48,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var Monitoring = require('ncloud-monitoring');
 
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var client = new Monitoring.ApiClient({
   accessKey: 'your access key',
   secretKey: 'your secret key',
 });
@@ -76,8 +75,8 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/monitoring/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Monitoring.V2Api* | [**getListMetrics**](docs/V2Api.md#getListMetrics) | **POST** /getListMetrics |
-*Monitoring.V2Api* | [**getMetricStatistics**](docs/V2Api.md#getMetricStatistics) | **POST** /getMetricStatistics |
+*Monitoring.V2Api* | [**getListMetrics**](docs/V2Api.md#getListMetrics) | **POST** /getListMetrics | 
+*Monitoring.V2Api* | [**getMetricStatistics**](docs/V2Api.md#getMetricStatistics) | **POST** /getMetricStatistics | 
 
 
 ## Documentation for Models

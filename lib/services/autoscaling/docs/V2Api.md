@@ -39,11 +39,10 @@ B.오토스케일링그룹생성
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -90,11 +89,10 @@ A.론치설정생성
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -141,11 +139,10 @@ B.오토스케일링그룹삭제
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -192,11 +189,10 @@ A.오토스케일링론치설정삭제
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -243,11 +239,10 @@ F.스케일링정책삭제
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -294,11 +289,10 @@ C.스케쥴액션삭제
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -345,11 +339,10 @@ F.스케일링정책수행
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -396,11 +389,10 @@ F.조정유형리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -447,11 +439,10 @@ E.액티비티로그리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -498,11 +489,10 @@ E.오토스케일링설정로그리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -549,11 +539,10 @@ B.오토스케일링그룹리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -600,11 +589,10 @@ F.오토스케일링정책리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -651,11 +639,10 @@ A.론치설정리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -702,11 +689,10 @@ D.프로세스구분리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -753,11 +739,10 @@ C.스케쥴액션리스트조회
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -804,11 +789,10 @@ F.스케일링정책생성/변경
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -855,11 +839,10 @@ C.스케쥴액션생성|수정
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -906,11 +889,10 @@ D.프로세스재개
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -957,11 +939,10 @@ B.기대용량치갱신
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -1008,11 +989,10 @@ B.서버인스턴스헬스상태갱신
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -1059,11 +1039,10 @@ D.프로세스보류
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -1110,11 +1089,10 @@ B.오토스케일링그룹에속한서버인스턴스삭제
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();
@@ -1161,11 +1139,10 @@ B.오토스케일링그룹수정
 
 ### Example
 ```javascript
-var Autoscaling = require('autoscaling');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Autoscaling = require('ncloud-autoscaling');
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Autoscaling.V2Api();

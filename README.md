@@ -50,7 +50,7 @@ instance.getServerInstanceList({}, function(err, data, response) {
 
 ## Documentation for individual modules
 
-All URIs are relative to *https://ncloud.beta-apigw.ntruss.com/server/v1*
+All URIs are relative to *https://ncloud.apigw.ntruss.com/server/v1*
 
 Services | Documentation | Install Command
 ------------ | ------------- | -------------

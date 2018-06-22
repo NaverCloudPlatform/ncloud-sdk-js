@@ -14,7 +14,7 @@ npm install ncloud-clouddb --save
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
 use this library):
 
 ```shell
@@ -48,8 +48,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var Clouddb = require('ncloud-clouddb');
 
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var client = new Clouddb.ApiClient({
   accessKey: 'your access key',
   secretKey: 'your secret key',
 });
@@ -76,13 +75,13 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/clouddb/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Clouddb.V2Api* | [**createCloudDBInstance**](docs/V2Api.md#createCloudDBInstance) | **POST** /createCloudDBInstance |
-*Clouddb.V2Api* | [**deleteCloudDBServerInstance**](docs/V2Api.md#deleteCloudDBServerInstance) | **POST** /deleteCloudDBServerInstance |
-*Clouddb.V2Api* | [**getCloudDBConfigGroupList**](docs/V2Api.md#getCloudDBConfigGroupList) | **POST** /getCloudDBConfigGroupList |
-*Clouddb.V2Api* | [**getCloudDBImageProductList**](docs/V2Api.md#getCloudDBImageProductList) | **POST** /getCloudDBImageProductList |
-*Clouddb.V2Api* | [**getCloudDBInstanceList**](docs/V2Api.md#getCloudDBInstanceList) | **POST** /getCloudDBInstanceList |
-*Clouddb.V2Api* | [**getCloudDBProductList**](docs/V2Api.md#getCloudDBProductList) | **POST** /getCloudDBProductList |
-*Clouddb.V2Api* | [**rebootCloudDBServerInstance**](docs/V2Api.md#rebootCloudDBServerInstance) | **POST** /rebootCloudDBServerInstance |
+*Clouddb.V2Api* | [**createCloudDBInstance**](docs/V2Api.md#createCloudDBInstance) | **POST** /createCloudDBInstance | 
+*Clouddb.V2Api* | [**deleteCloudDBServerInstance**](docs/V2Api.md#deleteCloudDBServerInstance) | **POST** /deleteCloudDBServerInstance | 
+*Clouddb.V2Api* | [**getCloudDBConfigGroupList**](docs/V2Api.md#getCloudDBConfigGroupList) | **POST** /getCloudDBConfigGroupList | 
+*Clouddb.V2Api* | [**getCloudDBImageProductList**](docs/V2Api.md#getCloudDBImageProductList) | **POST** /getCloudDBImageProductList | 
+*Clouddb.V2Api* | [**getCloudDBInstanceList**](docs/V2Api.md#getCloudDBInstanceList) | **POST** /getCloudDBInstanceList | 
+*Clouddb.V2Api* | [**getCloudDBProductList**](docs/V2Api.md#getCloudDBProductList) | **POST** /getCloudDBProductList | 
+*Clouddb.V2Api* | [**rebootCloudDBServerInstance**](docs/V2Api.md#rebootCloudDBServerInstance) | **POST** /rebootCloudDBServerInstance | 
 
 
 ## Documentation for Models

@@ -14,7 +14,7 @@ npm install ncloud-autoscaling --save
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
 use this library):
 
 ```shell
@@ -48,8 +48,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var Autoscaling = require('ncloud-autoscaling');
 
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var client = new Autoscaling.ApiClient({
   accessKey: 'your access key',
   secretKey: 'your secret key',
 });
@@ -76,29 +75,29 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/autoscaling/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Autoscaling.V2Api* | [**createAutoScalingGroup**](docs/V2Api.md#createAutoScalingGroup) | **POST** /createAutoScalingGroup |
-*Autoscaling.V2Api* | [**createLaunchConfiguration**](docs/V2Api.md#createLaunchConfiguration) | **POST** /createLaunchConfiguration |
-*Autoscaling.V2Api* | [**deleteAutoScalingGroup**](docs/V2Api.md#deleteAutoScalingGroup) | **POST** /deleteAutoScalingGroup |
-*Autoscaling.V2Api* | [**deleteAutoScalingLaunchConfiguration**](docs/V2Api.md#deleteAutoScalingLaunchConfiguration) | **POST** /deleteAutoScalingLaunchConfiguration |
-*Autoscaling.V2Api* | [**deletePolicy**](docs/V2Api.md#deletePolicy) | **POST** /deletePolicy |
-*Autoscaling.V2Api* | [**deleteScheduledAction**](docs/V2Api.md#deleteScheduledAction) | **POST** /deleteScheduledAction |
-*Autoscaling.V2Api* | [**executePolicy**](docs/V2Api.md#executePolicy) | **POST** /executePolicy |
-*Autoscaling.V2Api* | [**getAdjustmentTypeList**](docs/V2Api.md#getAdjustmentTypeList) | **POST** /getAdjustmentTypeList |
-*Autoscaling.V2Api* | [**getAutoScalingActivityLogList**](docs/V2Api.md#getAutoScalingActivityLogList) | **POST** /getAutoScalingActivityLogList |
-*Autoscaling.V2Api* | [**getAutoScalingConfigurationLogList**](docs/V2Api.md#getAutoScalingConfigurationLogList) | **POST** /getAutoScalingConfigurationLogList |
-*Autoscaling.V2Api* | [**getAutoScalingGroupList**](docs/V2Api.md#getAutoScalingGroupList) | **POST** /getAutoScalingGroupList |
-*Autoscaling.V2Api* | [**getAutoScalingPolicyList**](docs/V2Api.md#getAutoScalingPolicyList) | **POST** /getAutoScalingPolicyList |
-*Autoscaling.V2Api* | [**getLaunchConfigurationList**](docs/V2Api.md#getLaunchConfigurationList) | **POST** /getLaunchConfigurationList |
-*Autoscaling.V2Api* | [**getScalingProcessTypeList**](docs/V2Api.md#getScalingProcessTypeList) | **POST** /getScalingProcessTypeList |
-*Autoscaling.V2Api* | [**getScheduledActionList**](docs/V2Api.md#getScheduledActionList) | **POST** /getScheduledActionList |
-*Autoscaling.V2Api* | [**putScalingPolicy**](docs/V2Api.md#putScalingPolicy) | **POST** /putScalingPolicy |
-*Autoscaling.V2Api* | [**putScheduledUpdateGroupAction**](docs/V2Api.md#putScheduledUpdateGroupAction) | **POST** /putScheduledUpdateGroupAction |
-*Autoscaling.V2Api* | [**resumeProcesses**](docs/V2Api.md#resumeProcesses) | **POST** /resumeProcesses |
-*Autoscaling.V2Api* | [**setDesiredCapacity**](docs/V2Api.md#setDesiredCapacity) | **POST** /setDesiredCapacity |
-*Autoscaling.V2Api* | [**setServerInstanceHealth**](docs/V2Api.md#setServerInstanceHealth) | **POST** /setServerInstanceHealth |
-*Autoscaling.V2Api* | [**suspendProcesses**](docs/V2Api.md#suspendProcesses) | **POST** /suspendProcesses |
-*Autoscaling.V2Api* | [**terminateServerInstanceInAutoScalingGroup**](docs/V2Api.md#terminateServerInstanceInAutoScalingGroup) | **POST** /terminateServerInstanceInAutoScalingGroup |
-*Autoscaling.V2Api* | [**updateAutoScalingGroup**](docs/V2Api.md#updateAutoScalingGroup) | **POST** /updateAutoScalingGroup |
+*Autoscaling.V2Api* | [**createAutoScalingGroup**](docs/V2Api.md#createAutoScalingGroup) | **POST** /createAutoScalingGroup | 
+*Autoscaling.V2Api* | [**createLaunchConfiguration**](docs/V2Api.md#createLaunchConfiguration) | **POST** /createLaunchConfiguration | 
+*Autoscaling.V2Api* | [**deleteAutoScalingGroup**](docs/V2Api.md#deleteAutoScalingGroup) | **POST** /deleteAutoScalingGroup | 
+*Autoscaling.V2Api* | [**deleteAutoScalingLaunchConfiguration**](docs/V2Api.md#deleteAutoScalingLaunchConfiguration) | **POST** /deleteAutoScalingLaunchConfiguration | 
+*Autoscaling.V2Api* | [**deletePolicy**](docs/V2Api.md#deletePolicy) | **POST** /deletePolicy | 
+*Autoscaling.V2Api* | [**deleteScheduledAction**](docs/V2Api.md#deleteScheduledAction) | **POST** /deleteScheduledAction | 
+*Autoscaling.V2Api* | [**executePolicy**](docs/V2Api.md#executePolicy) | **POST** /executePolicy | 
+*Autoscaling.V2Api* | [**getAdjustmentTypeList**](docs/V2Api.md#getAdjustmentTypeList) | **POST** /getAdjustmentTypeList | 
+*Autoscaling.V2Api* | [**getAutoScalingActivityLogList**](docs/V2Api.md#getAutoScalingActivityLogList) | **POST** /getAutoScalingActivityLogList | 
+*Autoscaling.V2Api* | [**getAutoScalingConfigurationLogList**](docs/V2Api.md#getAutoScalingConfigurationLogList) | **POST** /getAutoScalingConfigurationLogList | 
+*Autoscaling.V2Api* | [**getAutoScalingGroupList**](docs/V2Api.md#getAutoScalingGroupList) | **POST** /getAutoScalingGroupList | 
+*Autoscaling.V2Api* | [**getAutoScalingPolicyList**](docs/V2Api.md#getAutoScalingPolicyList) | **POST** /getAutoScalingPolicyList | 
+*Autoscaling.V2Api* | [**getLaunchConfigurationList**](docs/V2Api.md#getLaunchConfigurationList) | **POST** /getLaunchConfigurationList | 
+*Autoscaling.V2Api* | [**getScalingProcessTypeList**](docs/V2Api.md#getScalingProcessTypeList) | **POST** /getScalingProcessTypeList | 
+*Autoscaling.V2Api* | [**getScheduledActionList**](docs/V2Api.md#getScheduledActionList) | **POST** /getScheduledActionList | 
+*Autoscaling.V2Api* | [**putScalingPolicy**](docs/V2Api.md#putScalingPolicy) | **POST** /putScalingPolicy | 
+*Autoscaling.V2Api* | [**putScheduledUpdateGroupAction**](docs/V2Api.md#putScheduledUpdateGroupAction) | **POST** /putScheduledUpdateGroupAction | 
+*Autoscaling.V2Api* | [**resumeProcesses**](docs/V2Api.md#resumeProcesses) | **POST** /resumeProcesses | 
+*Autoscaling.V2Api* | [**setDesiredCapacity**](docs/V2Api.md#setDesiredCapacity) | **POST** /setDesiredCapacity | 
+*Autoscaling.V2Api* | [**setServerInstanceHealth**](docs/V2Api.md#setServerInstanceHealth) | **POST** /setServerInstanceHealth | 
+*Autoscaling.V2Api* | [**suspendProcesses**](docs/V2Api.md#suspendProcesses) | **POST** /suspendProcesses | 
+*Autoscaling.V2Api* | [**terminateServerInstanceInAutoScalingGroup**](docs/V2Api.md#terminateServerInstanceInAutoScalingGroup) | **POST** /terminateServerInstanceInAutoScalingGroup | 
+*Autoscaling.V2Api* | [**updateAutoScalingGroup**](docs/V2Api.md#updateAutoScalingGroup) | **POST** /updateAutoScalingGroup | 
 
 
 ## Documentation for Models

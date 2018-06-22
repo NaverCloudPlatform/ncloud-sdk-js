@@ -14,7 +14,7 @@ npm install ncloud-loadbalancer --save
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
 use this library):
 
 ```shell
@@ -48,8 +48,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var Loadbalancer = require('ncloud-loadbalancer');
 
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var client = new Loadbalancer.ApiClient({
   accessKey: 'your access key',
   secretKey: 'your secret key',
 });
@@ -76,16 +75,16 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/loadbalancer/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Loadbalancer.V2Api* | [**addLoadBalancerSslCertificate**](docs/V2Api.md#addLoadBalancerSslCertificate) | **POST** /addLoadBalancerSslCertificate |
-*Loadbalancer.V2Api* | [**changeLoadBalancedServerInstances**](docs/V2Api.md#changeLoadBalancedServerInstances) | **POST** /changeLoadBalancedServerInstances |
-*Loadbalancer.V2Api* | [**changeLoadBalancerInstanceConfiguration**](docs/V2Api.md#changeLoadBalancerInstanceConfiguration) | **POST** /changeLoadBalancerInstanceConfiguration |
-*Loadbalancer.V2Api* | [**createLoadBalancerInstance**](docs/V2Api.md#createLoadBalancerInstance) | **POST** /createLoadBalancerInstance |
-*Loadbalancer.V2Api* | [**deleteLoadBalancerInstances**](docs/V2Api.md#deleteLoadBalancerInstances) | **POST** /deleteLoadBalancerInstances |
-*Loadbalancer.V2Api* | [**deleteLoadBalancerSslCertificate**](docs/V2Api.md#deleteLoadBalancerSslCertificate) | **POST** /deleteLoadBalancerSslCertificate |
-*Loadbalancer.V2Api* | [**getLoadBalancedServerInstanceList**](docs/V2Api.md#getLoadBalancedServerInstanceList) | **POST** /getLoadBalancedServerInstanceList |
-*Loadbalancer.V2Api* | [**getLoadBalancerInstanceList**](docs/V2Api.md#getLoadBalancerInstanceList) | **POST** /getLoadBalancerInstanceList |
-*Loadbalancer.V2Api* | [**getLoadBalancerSslCertificateList**](docs/V2Api.md#getLoadBalancerSslCertificateList) | **POST** /getLoadBalancerSslCertificateList |
-*Loadbalancer.V2Api* | [**getLoadBalancerTargetServerInstanceList**](docs/V2Api.md#getLoadBalancerTargetServerInstanceList) | **POST** /getLoadBalancerTargetServerInstanceList |
+*Loadbalancer.V2Api* | [**addLoadBalancerSslCertificate**](docs/V2Api.md#addLoadBalancerSslCertificate) | **POST** /addLoadBalancerSslCertificate | 
+*Loadbalancer.V2Api* | [**changeLoadBalancedServerInstances**](docs/V2Api.md#changeLoadBalancedServerInstances) | **POST** /changeLoadBalancedServerInstances | 
+*Loadbalancer.V2Api* | [**changeLoadBalancerInstanceConfiguration**](docs/V2Api.md#changeLoadBalancerInstanceConfiguration) | **POST** /changeLoadBalancerInstanceConfiguration | 
+*Loadbalancer.V2Api* | [**createLoadBalancerInstance**](docs/V2Api.md#createLoadBalancerInstance) | **POST** /createLoadBalancerInstance | 
+*Loadbalancer.V2Api* | [**deleteLoadBalancerInstances**](docs/V2Api.md#deleteLoadBalancerInstances) | **POST** /deleteLoadBalancerInstances | 
+*Loadbalancer.V2Api* | [**deleteLoadBalancerSslCertificate**](docs/V2Api.md#deleteLoadBalancerSslCertificate) | **POST** /deleteLoadBalancerSslCertificate | 
+*Loadbalancer.V2Api* | [**getLoadBalancedServerInstanceList**](docs/V2Api.md#getLoadBalancedServerInstanceList) | **POST** /getLoadBalancedServerInstanceList | 
+*Loadbalancer.V2Api* | [**getLoadBalancerInstanceList**](docs/V2Api.md#getLoadBalancerInstanceList) | **POST** /getLoadBalancerInstanceList | 
+*Loadbalancer.V2Api* | [**getLoadBalancerSslCertificateList**](docs/V2Api.md#getLoadBalancerSslCertificateList) | **POST** /getLoadBalancerSslCertificateList | 
+*Loadbalancer.V2Api* | [**getLoadBalancerTargetServerInstanceList**](docs/V2Api.md#getLoadBalancerTargetServerInstanceList) | **POST** /getLoadBalancerTargetServerInstanceList | 
 
 
 ## Documentation for Models

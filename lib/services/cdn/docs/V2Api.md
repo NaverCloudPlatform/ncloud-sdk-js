@@ -22,11 +22,10 @@ CDN+인스턴스리스트조회
 
 ### Example
 ```javascript
-var Cdn = require('cdn');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Cdn = require('ncloud-cdn');
+var client = new Cdn.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Cdn.V2Api();
@@ -73,11 +72,10 @@ CDN+퍼지기록조회
 
 ### Example
 ```javascript
-var Cdn = require('cdn');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Cdn = require('ncloud-cdn');
+var client = new Cdn.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Cdn.V2Api();
@@ -124,11 +122,10 @@ Global CDN 인스턴스리스트조회
 
 ### Example
 ```javascript
-var Cdn = require('cdn');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Cdn = require('ncloud-cdn');
+var client = new Cdn.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Cdn.V2Api();
@@ -175,11 +172,10 @@ Global CDN퍼지기록조회
 
 ### Example
 ```javascript
-var Cdn = require('cdn');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Cdn = require('ncloud-cdn');
+var client = new Cdn.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Cdn.V2Api();
@@ -226,11 +222,10 @@ CDN+퍼지요청
 
 ### Example
 ```javascript
-var Cdn = require('cdn');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Cdn = require('ncloud-cdn');
+var client = new Cdn.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Cdn.V2Api();
@@ -277,11 +272,10 @@ Global CDN퍼지요청
 
 ### Example
 ```javascript
-var Cdn = require('cdn');
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var Cdn = require('ncloud-cdn');
+var client = new Cdn.ApiClient({
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Cdn.V2Api();

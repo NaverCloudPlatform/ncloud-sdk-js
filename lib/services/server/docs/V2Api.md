@@ -60,11 +60,10 @@ NAS볼륨인스턴스접근제어추가
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -111,11 +110,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -162,11 +160,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -213,11 +210,10 @@ NAS볼륨사이즈변경
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -264,11 +260,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -315,11 +310,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -366,11 +360,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -417,11 +410,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -468,11 +460,10 @@ NAS볼륨인스턴스생성
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -519,11 +510,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -570,11 +560,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -621,11 +610,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -672,11 +660,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -723,11 +710,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -774,11 +760,10 @@ NAS볼륨인스턴스삭제
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -825,11 +810,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -876,11 +860,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -927,11 +910,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -978,11 +960,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1029,11 +1010,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1080,11 +1060,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1131,11 +1110,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1182,11 +1160,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1233,11 +1210,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1284,11 +1260,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1335,11 +1310,10 @@ NAS볼륨인스턴스리스트조회
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1386,11 +1360,10 @@ NAS볼륨인스턴스측정리스트조회
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1437,11 +1410,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1488,11 +1460,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1539,11 +1510,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1590,11 +1560,10 @@ RAID리스트조회
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1641,11 +1610,10 @@ REGION리스트조회
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1692,11 +1660,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1743,11 +1710,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1794,11 +1760,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1845,11 +1810,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1896,11 +1860,10 @@ ZONE리스트조회
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1947,11 +1910,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -1998,11 +1960,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -2049,11 +2010,10 @@ NAS볼륨인스턴스접근제어제거
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -2100,11 +2060,10 @@ NAS볼륨인스턴스접근제어설정
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -2151,11 +2110,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -2202,11 +2160,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();
@@ -2253,11 +2210,10 @@ Name | Type | Description  | Notes
 
 ### Example
 ```javascript
-var Server = require('server');
+var Server = require('ncloud-server');
 var client = new Server.ApiClient({
-  apiKey: 'your api key',
   accessKey: 'your access key',
-  secretKey: 'your secret key',
+  secretKey: 'your secret key'
 });
 
 var apiInstance = new Server.V2Api();

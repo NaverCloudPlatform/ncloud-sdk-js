@@ -14,7 +14,7 @@ npm install ncloud-cdn --save
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually
+perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
 use this library):
 
 ```shell
@@ -48,8 +48,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var Cdn = require('ncloud-cdn');
 
-var client = new Server.ApiClient({
-  apiKey: 'your api key',
+var client = new Cdn.ApiClient({
   accessKey: 'your access key',
   secretKey: 'your secret key',
 });
@@ -76,12 +75,12 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/cdn/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Cdn.V2Api* | [**getCdnPlusInstanceList**](docs/V2Api.md#getCdnPlusInstanceList) | **POST** /getCdnPlusInstanceList |
-*Cdn.V2Api* | [**getCdnPlusPurgeHistoryList**](docs/V2Api.md#getCdnPlusPurgeHistoryList) | **POST** /getCdnPlusPurgeHistoryList |
-*Cdn.V2Api* | [**getGlobalCdnInstanceList**](docs/V2Api.md#getGlobalCdnInstanceList) | **POST** /getGlobalCdnInstanceList |
-*Cdn.V2Api* | [**getGlobalCdnPurgeHistoryList**](docs/V2Api.md#getGlobalCdnPurgeHistoryList) | **POST** /getGlobalCdnPurgeHistoryList |
-*Cdn.V2Api* | [**requestCdnPlusPurge**](docs/V2Api.md#requestCdnPlusPurge) | **POST** /requestCdnPlusPurge |
-*Cdn.V2Api* | [**requestGlobalCdnPurge**](docs/V2Api.md#requestGlobalCdnPurge) | **POST** /requestGlobalCdnPurge |
+*Cdn.V2Api* | [**getCdnPlusInstanceList**](docs/V2Api.md#getCdnPlusInstanceList) | **POST** /getCdnPlusInstanceList | 
+*Cdn.V2Api* | [**getCdnPlusPurgeHistoryList**](docs/V2Api.md#getCdnPlusPurgeHistoryList) | **POST** /getCdnPlusPurgeHistoryList | 
+*Cdn.V2Api* | [**getGlobalCdnInstanceList**](docs/V2Api.md#getGlobalCdnInstanceList) | **POST** /getGlobalCdnInstanceList | 
+*Cdn.V2Api* | [**getGlobalCdnPurgeHistoryList**](docs/V2Api.md#getGlobalCdnPurgeHistoryList) | **POST** /getGlobalCdnPurgeHistoryList | 
+*Cdn.V2Api* | [**requestCdnPlusPurge**](docs/V2Api.md#requestCdnPlusPurge) | **POST** /requestCdnPlusPurge | 
+*Cdn.V2Api* | [**requestGlobalCdnPurge**](docs/V2Api.md#requestGlobalCdnPurge) | **POST** /requestGlobalCdnPurge | 
 
 
 ## Documentation for Models
