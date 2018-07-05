@@ -9,6 +9,5 @@ Name | Type | Description | Notes
 **blockStorageSize** | **Number** | 블록스토리지사이즈 | [optional] 
 **regionNo** | **String** | 리전번호 | [optional] 
 **infraResourceDetailTypeCode** | **String** | 인프라자원상세구분코드 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

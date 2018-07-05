@@ -59,7 +59,7 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: application/json, application/x-www-form-urlencoded
+ - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
 <a name="getCdnPlusPurgeHistoryList"></a>
@@ -159,7 +159,7 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
+ - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
 <a name="getGlobalCdnPurgeHistoryList"></a>
@@ -180,7 +180,7 @@ var client = new Cdn.ApiClient({
 
 var apiInstance = new Cdn.V2Api();
 
-var getGlobalCdnPurgeHistoryListRequest = new Cdn.GetCdnPlusPurgeHistoryListRequest(); // GetCdnPlusPurgeHistoryListRequest | getGlobalCdnPurgeHistoryListRequest
+var getGlobalCdnPurgeHistoryListRequest = new Cdn.GetGlobalCdnPurgeHistoryListRequest(); // GetGlobalCdnPurgeHistoryListRequest | getGlobalCdnPurgeHistoryListRequest
 
 
 var callback = function(error, data, response) {
@@ -197,7 +197,7 @@ apiInstance.getGlobalCdnPurgeHistoryList(getGlobalCdnPurgeHistoryListRequest, ca
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **getGlobalCdnPurgeHistoryListRequest** | [**GetCdnPlusPurgeHistoryListRequest**](GetCdnPlusPurgeHistoryListRequest.md)| getGlobalCdnPurgeHistoryListRequest | 
+ **getGlobalCdnPurgeHistoryListRequest** | [**GetGlobalCdnPurgeHistoryListRequest**](GetGlobalCdnPurgeHistoryListRequest.md)| getGlobalCdnPurgeHistoryListRequest | 
 
 ### Return type
 
@@ -209,7 +209,7 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
+ - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
 <a name="requestCdnPlusPurge"></a>
@@ -309,6 +309,6 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
+ - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 

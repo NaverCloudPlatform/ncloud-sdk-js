@@ -7,6 +7,7 @@
 ### For [Node.js](https://nodejs.org/)
 
 #### npm
+
 설치는 npm 또는 yarn 을 이용해서 아래의 명령어로 설치할 수 있습니다.
 
 ```
@@ -16,14 +17,17 @@ npm install ncloud-sdk --save
 ## 시작하기
 
 ### ncloud-sdk 를 사용하기 위해서는 먼저 인증키를 생성해야 합니다.
-- 인증키는 [포털](https://www.ncloud.com)의 마이페이지 > 계정관리 > [인증키 관리](https://www.ncloud.com/mypage/manage/authkey) 메뉴에서 "신규 API 인증키 생성"을 통해서 Access Key ID, Secret Key를 생성합니다.
+
+- 인증키는 [포털](https://www.ncloud.com)의 마이페이지 > 계정관리 > [인증키 관리](https://www.ncloud.com/mypage/manage/authkey) 메뉴에서 "신규 API 인증키 생성"을 통해서 Access Key ID, Secret Key 를 생성합니다.
 - 이미 생성된 인증키가 있을 경우 [포털](https://www.ncloud.com)의 마이페이지 > 계정관리 > [인증키 관리](https://www.ncloud.com/mypage/manage/authkey) 메뉴에서 확인할 수 있습니다.
-- sub account의 경우, [Console](https://console.ncloud.com)의 [Sub Account](https://console.ncloud.com/iam/dashboard) > Sub Accounts > 서브 계정 상세 메뉴에서 "API Key"탭에서 생성한 Access Key ID, Secret Key를 사용할 수도 있습니다.
+- sub account 의 경우, [Console](https://console.ncloud.com)의 [Sub Account](https://console.ncloud.com/iam/dashboard) > Sub Accounts > 서브 계정 상세 메뉴에서 "API Key"탭에서 생성한 Access Key ID, Secret Key 를 사용할 수도 있습니다.
 
 ### 생성된 인증키 정보를 저장합니다.
-- Mac/Linux의 경우 ~/.ncloud/configure에, Windows의 경우 C:\Users\USERNAME\\.ncloud\configure에 인증키 정보를 저장합니다.
+
+- Mac/Linux 의 경우 ~/.ncloud/configure 에, Windows 의 경우 C:\Users\USERNAME\\.ncloud\configure 에 인증키 정보를 저장합니다.
 - configure 파일은 [NCLOUD CLI](http://docs.ncloud.com/ko/tool/tool-3-1.html) 를 이용하여 생성할 수도 있습니다.
 - configure example
+
 ```
 ncloud_access_key_id = C9zxQyBQVqcRNQmcAXKn
 ncloud_secret_access_key = NDgSdssXg4RiMMN1f5dqIe775GJXzSe8hWpd2X3g
@@ -50,15 +54,14 @@ instance.getServerInstanceList({}, function(err, data, response) {
 
 ## Documentation for individual modules
 
-Services | Documentation | Install Command
------------- | ------------- | -------------
-*Server* | [**Server**](lib/services/server/README.md) | npm install ncloud-server
-*Loadbalancer* | [**Loadbalancer**](lib/services/loadbalancer/README.md) | npm install ncloud-loadbalancer
-*Autoscaling* | [**Autoscaling**](lib/services/autoscaling/README.md) | npm install ncloud-autoscaling
-*Monitoring* | [**Monitoring**](lib/services/monitoring/README.md) | npm install ncloud-monitoring
-*CDN* | [**CDN**](lib/services/cdn/README.md) | npm install ncloud-cdn
-*CloudDB* | [**CloudDB**](lib/services/clouddb/README.md) | npm install ncloud-clouddb
-
+| Services       | Documentation                                                                                                           | Install Command                 |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| _Server_       | [**Server**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/server/README.md)             | npm install ncloud-server       |
+| _Loadbalancer_ | [**Loadbalancer**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/loadbalancer/README.md) | npm install ncloud-loadbalancer |
+| _Autoscaling_  | [**Autoscaling**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/autoscaling/README.md)   | npm install ncloud-autoscaling  |
+| _Monitoring_   | [**Monitoring**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/monitoring/README.md)     | npm install ncloud-monitoring   |
+| _CDN_          | [**CDN**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/cdn/README.md)                   | npm install ncloud-cdn          |
+| _CloudDB_      | [**CloudDB**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/clouddb/README.md)           | npm install ncloud-clouddb      |
 
 ### License
 

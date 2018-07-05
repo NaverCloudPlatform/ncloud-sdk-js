@@ -8,6 +8,5 @@ Name | Type | Description | Notes
 **startTime** | **String** | 조회시작일시 | 
 **endTime** | **String** | 조회종료일시 | 
 **period** | **Number** | 조회주기(초) | 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

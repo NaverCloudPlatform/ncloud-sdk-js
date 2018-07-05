@@ -18,6 +18,5 @@ Name | Type | Description | Notes
 **zoneNo** | **String** | ZONE번호 | [optional] 
 **accessControlGroupConfigurationNoList** | **[String]** | ACG설정번호리스트 | [optional] 
 **raidTypeName** | **String** | RAID구분이름 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

@@ -12,6 +12,5 @@ Name | Type | Description | Notes
 **healthCheckGracePeriod** | **Number** | 헬스체크보류기간 | [optional] 
 **healthCheckTypeCode** | **String** | 헬스체크유형코드 | [optional] 
 **zoneNoList** | **[String]** | ZONE번호리스트 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

@@ -7,6 +7,6 @@ Name | Type | Description | Notes
 **returnCode** | **String** |  | [optional] 
 **returnMessage** | **String** |  | [optional] 
 **totalRows** | **Number** |  | [optional] 
-**blockStorageInstanceList** | [**[BlockStorageSnapshotInstance]**](BlockStorageSnapshotInstance.md) |  | [optional] 
+**blockStorageSnapshotInstanceList** | [**[BlockStorageSnapshotInstance]**](BlockStorageSnapshotInstance.md) |  | [optional] 
 
 

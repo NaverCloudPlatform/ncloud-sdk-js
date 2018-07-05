@@ -7,6 +7,5 @@ Name | Type | Description | Notes
 **interval** | **String** | 측정간격 | 
 **nasVolumeInstanceNo** | **String** | NAS볼륨인스턴스번호 | 
 **startTime** | **String** | 측정시작시간 | 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

@@ -9,6 +9,5 @@ Name | Type | Description | Notes
 **regionNo** | **String** | 리전번호 | [optional] 
 **serverImageProductCode** | **String** | 서버이미지상품코드 | 
 **zoneNo** | **String** | ZONE번호 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

@@ -23,6 +23,5 @@ Name | Type | Description | Notes
 **backupTime** | **String** | 백업시간 | [optional] 
 **regionNo** | **String** | 리전번호 | [optional] 
 **zoneNo** | **String** | zone번호 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

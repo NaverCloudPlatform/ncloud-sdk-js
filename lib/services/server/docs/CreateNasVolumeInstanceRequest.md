@@ -13,6 +13,5 @@ Name | Type | Description | Notes
 **nasVolumeDescription** | **String** | NAS볼륨설명 | [optional] 
 **regionNo** | **String** | 리전번호 | [optional] 
 **zoneNo** | **String** | ZONE번호 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

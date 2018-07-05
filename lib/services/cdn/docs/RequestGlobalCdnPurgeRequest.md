@@ -8,6 +8,5 @@ Name | Type | Description | Notes
 **isWholePurge** | **Boolean** | 전체퍼지여부 | 
 **isWholeDomain** | **Boolean** | 전체도메인여부 | 
 **targetFileList** | **[String]** | 대상파일리스트 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

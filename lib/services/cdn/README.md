@@ -96,6 +96,7 @@ Class | Method | HTTP request | Description
  - [Cdn.GetCdnPlusPurgeHistoryListResponse](docs/GetCdnPlusPurgeHistoryListResponse.md)
  - [Cdn.GetGlobalCdnInstanceListRequest](docs/GetGlobalCdnInstanceListRequest.md)
  - [Cdn.GetGlobalCdnInstanceListResponse](docs/GetGlobalCdnInstanceListResponse.md)
+ - [Cdn.GetGlobalCdnPurgeHistoryListRequest](docs/GetGlobalCdnPurgeHistoryListRequest.md)
  - [Cdn.GetGlobalCdnPurgeHistoryListResponse](docs/GetGlobalCdnPurgeHistoryListResponse.md)
  - [Cdn.GlobalCdnInstance](docs/GlobalCdnInstance.md)
  - [Cdn.GlobalCdnPurgeHistory](docs/GlobalCdnPurgeHistory.md)

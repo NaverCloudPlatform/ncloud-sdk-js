@@ -9,6 +9,5 @@ Name | Type | Description | Notes
 **minAdjustmentStep** | **Number** | 최소조정스텝 | [optional] 
 **policyName** | **String** | 정책명 | 
 **scalingAdjustment** | **Number** | 스케일링조정값 | 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

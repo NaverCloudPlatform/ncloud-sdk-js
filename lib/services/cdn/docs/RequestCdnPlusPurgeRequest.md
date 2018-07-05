@@ -9,6 +9,5 @@ Name | Type | Description | Notes
 **isWholeDomain** | **Boolean** | 전체도메인여부 | 
 **targetFileList** | **[String]** | 대상파일리스트 | [optional] 
 **targetDirectoryName** | **String** | 대상디렉토리명 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

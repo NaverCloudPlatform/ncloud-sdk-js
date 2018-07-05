@@ -11,6 +11,5 @@ Name | Type | Description | Notes
 **recurrenceInKST** | **String** | 반복스케줄설정 | [optional] 
 **scheduledActionName** | **String** | 스케쥴액션명 | 
 **startTime** | **String** | 스케쥴시작시간 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

@@ -8,6 +8,5 @@ Name | Type | Description | Notes
 **accessControlGroupName** | **String** | 접근제어그룹명 | [optional] 
 **pageNo** | **Number** | 페이지번호 | [optional] 
 **pageSize** | **Number** | 페이지사이즈 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

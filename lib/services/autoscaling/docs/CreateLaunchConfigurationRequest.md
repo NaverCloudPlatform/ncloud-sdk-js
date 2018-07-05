@@ -10,6 +10,5 @@ Name | Type | Description | Notes
 **accessControlGroupConfigurationNoList** | **[String]** | ACG설정번호리스트 | [optional] 
 **loginKeyName** | **String** | 로그인키명 | [optional] 
 **userData** | **String** | 사용자데이터 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

@@ -11,6 +11,5 @@ Name | Type | Description | Notes
 **searchFilterValue** | **String** | 검색필터값 | [optional] 
 **regionNo** | **String** | 리전번호 | [optional] 
 **zoneNo** | **String** | zone번호 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

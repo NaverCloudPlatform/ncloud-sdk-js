@@ -17,6 +17,5 @@ Name | Type | Description | Notes
 **sortedBy** | **String** | 소팅대상 | [optional] 
 **sortingOrder** | **String** | 소팅순서 | [optional] 
 **serverInstanceTypeCodeList** | **[String]** | 서비인스턴스구분코드리스트 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

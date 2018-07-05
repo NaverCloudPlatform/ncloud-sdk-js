@@ -10,6 +10,5 @@ Name | Type | Description | Notes
 **regionNo** | **String** | 리전번호 | [optional] 
 **sortedBy** | **String** | 소팅대상 | [optional] 
 **sortingOrder** | **String** | 소팅순서 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

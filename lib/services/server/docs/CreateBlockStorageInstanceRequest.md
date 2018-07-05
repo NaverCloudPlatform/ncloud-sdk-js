@@ -8,6 +8,5 @@ Name | Type | Description | Notes
 **blockStorageDescription** | **String** | 블럭스토리지설명 | [optional] 
 **serverInstanceNo** | **String** | 서버인스턴스번호 | 
 **diskDetailTypeCode** | **String** | 디스크상세유형코드 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

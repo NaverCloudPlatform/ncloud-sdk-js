@@ -9,6 +9,5 @@ Name | Type | Description | Notes
 **nasVolumeInstanceNoList** | **[String]** | NAS볼륨인스턴스번호리스트 | [optional] 
 **regionNo** | **String** | 리전번호 | [optional] 
 **zoneNo** | **String** | ZONE번호 | [optional] 
-**responseFormatType** | **String** | responseFormatType {json, xml} | [optional] 
 
 

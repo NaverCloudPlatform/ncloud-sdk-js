@@ -219,7 +219,6 @@ Class | Method | HTTP request | Description
  - [Server.Region](docs/Region.md)
  - [Server.RemoveNasVolumeAccessControlRequest](docs/RemoveNasVolumeAccessControlRequest.md)
  - [Server.RemoveNasVolumeAccessControlResponse](docs/RemoveNasVolumeAccessControlResponse.md)
- - [Server.RootPassword](docs/RootPassword.md)
  - [Server.ServerInstance](docs/ServerInstance.md)
  - [Server.SetNasVolumeAccessControlRequest](docs/SetNasVolumeAccessControlRequest.md)
  - [Server.SetNasVolumeAccessControlResponse](docs/SetNasVolumeAccessControlResponse.md)
