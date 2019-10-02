@@ -2,7 +2,7 @@
   "name": "ncloud-cdn",
   "authors": "NAVER BUSINESS PLATFORM Corp.",
   "description": "cdn client library for Naver Cloud Platform",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "homepage": "http://github.com/NaverCloudPlatform/ncloud-sdk-js",
   "license": "MIT",
   "main": "src/index.js",

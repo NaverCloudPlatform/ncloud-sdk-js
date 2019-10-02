@@ -12,11 +12,12 @@ Name | Type | Description | Notes
 **isProtectServerTermination** | **Boolean** | 반납보호여부 | [optional] 
 **serverCreateCount** | **Number** | 서버생성갯수 | [optional] 
 **serverCreateStartNo** | **Number** | 서버생성시작번호 | [optional] 
-**internetLineTypeCode** | **Boolean** | 인터넷라인구분코드 | [optional] 
+**internetLineTypeCode** | **String** | 인터넷라인구분코드 | [optional] 
 **feeSystemTypeCode** | **String** | 요금제구분코드 | [optional] 
 **userData** | **String** | 사용자데이터 | [optional] 
 **zoneNo** | **String** | ZONE번호 | [optional] 
 **accessControlGroupConfigurationNoList** | **[String]** | ACG설정번호리스트 | [optional] 
 **raidTypeName** | **String** | RAID구분이름 | [optional] 
+**instanceTagList** | [**[InstanceTagParameter]**](InstanceTagParameter.md) | 인스턴스태그리스트 | [optional] 
 
 
