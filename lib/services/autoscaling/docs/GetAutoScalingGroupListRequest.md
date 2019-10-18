@@ -8,5 +8,6 @@ Name | Type | Description | Notes
 **pageSize** | **Number** | 페이지사이즈 | [optional] 
 **sortedBy** | **String** | 소팅대상 | [optional] 
 **sortingOrder** | **String** | 소팅순서 | [optional] 
+**regionNo** | **String** | 리전번호 | [optional] 
 
 

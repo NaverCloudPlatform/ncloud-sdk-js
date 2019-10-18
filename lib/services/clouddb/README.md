@@ -77,16 +77,26 @@ Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *Clouddb.V2Api* | [**createCloudDBInstance**](docs/V2Api.md#createCloudDBInstance) | **POST** /createCloudDBInstance | 
 *Clouddb.V2Api* | [**deleteCloudDBServerInstance**](docs/V2Api.md#deleteCloudDBServerInstance) | **POST** /deleteCloudDBServerInstance | 
+*Clouddb.V2Api* | [**downloadDmsFile**](docs/V2Api.md#downloadDmsFile) | **POST** /downloadDmsFile | 
+*Clouddb.V2Api* | [**flushCloudDBInstance**](docs/V2Api.md#flushCloudDBInstance) | **POST** /flushCloudDBInstance | 
+*Clouddb.V2Api* | [**getBackupList**](docs/V2Api.md#getBackupList) | **POST** /getBackupList | 
 *Clouddb.V2Api* | [**getCloudDBConfigGroupList**](docs/V2Api.md#getCloudDBConfigGroupList) | **POST** /getCloudDBConfigGroupList | 
 *Clouddb.V2Api* | [**getCloudDBImageProductList**](docs/V2Api.md#getCloudDBImageProductList) | **POST** /getCloudDBImageProductList | 
 *Clouddb.V2Api* | [**getCloudDBInstanceList**](docs/V2Api.md#getCloudDBInstanceList) | **POST** /getCloudDBInstanceList | 
 *Clouddb.V2Api* | [**getCloudDBProductList**](docs/V2Api.md#getCloudDBProductList) | **POST** /getCloudDBProductList | 
+*Clouddb.V2Api* | [**getDmsOperation**](docs/V2Api.md#getDmsOperation) | **POST** /getDmsOperation | 
+*Clouddb.V2Api* | [**getObjectStorageBackupList**](docs/V2Api.md#getObjectStorageBackupList) | **POST** /getObjectStorageBackupList | 
 *Clouddb.V2Api* | [**rebootCloudDBServerInstance**](docs/V2Api.md#rebootCloudDBServerInstance) | **POST** /rebootCloudDBServerInstance | 
+*Clouddb.V2Api* | [**restoreDmsDatabase**](docs/V2Api.md#restoreDmsDatabase) | **POST** /restoreDmsDatabase | 
+*Clouddb.V2Api* | [**restoreDmsTransactionLog**](docs/V2Api.md#restoreDmsTransactionLog) | **POST** /restoreDmsTransactionLog | 
+*Clouddb.V2Api* | [**setObjectStorageInfo**](docs/V2Api.md#setObjectStorageInfo) | **POST** /setObjectStorageInfo | 
+*Clouddb.V2Api* | [**uploadDmsFile**](docs/V2Api.md#uploadDmsFile) | **POST** /uploadDmsFile | 
 
 
 ## Documentation for Models
 
  - [Clouddb.AccessControlGroup](docs/AccessControlGroup.md)
+ - [Clouddb.BackupFile](docs/BackupFile.md)
  - [Clouddb.CloudDBConfig](docs/CloudDBConfig.md)
  - [Clouddb.CloudDBConfigGroup](docs/CloudDBConfigGroup.md)
  - [Clouddb.CloudDBInstance](docs/CloudDBInstance.md)
@@ -96,6 +106,13 @@ Class | Method | HTTP request | Description
  - [Clouddb.CreateCloudDBInstanceResponse](docs/CreateCloudDBInstanceResponse.md)
  - [Clouddb.DeleteCloudDBServerInstanceRequest](docs/DeleteCloudDBServerInstanceRequest.md)
  - [Clouddb.DeleteCloudDBServerInstanceResponse](docs/DeleteCloudDBServerInstanceResponse.md)
+ - [Clouddb.DmsFile](docs/DmsFile.md)
+ - [Clouddb.DownloadDmsFileRequest](docs/DownloadDmsFileRequest.md)
+ - [Clouddb.DownloadDmsFileResponse](docs/DownloadDmsFileResponse.md)
+ - [Clouddb.FlushCloudDBInstanceRequest](docs/FlushCloudDBInstanceRequest.md)
+ - [Clouddb.FlushCloudDBInstanceResponse](docs/FlushCloudDBInstanceResponse.md)
+ - [Clouddb.GetBackupListRequest](docs/GetBackupListRequest.md)
+ - [Clouddb.GetBackupListResponse](docs/GetBackupListResponse.md)
  - [Clouddb.GetCloudDBConfigGroupListRequest](docs/GetCloudDBConfigGroupListRequest.md)
  - [Clouddb.GetCloudDBConfigGroupListResponse](docs/GetCloudDBConfigGroupListResponse.md)
  - [Clouddb.GetCloudDBImageProductListRequest](docs/GetCloudDBImageProductListRequest.md)
@@ -104,10 +121,22 @@ Class | Method | HTTP request | Description
  - [Clouddb.GetCloudDBInstanceListResponse](docs/GetCloudDBInstanceListResponse.md)
  - [Clouddb.GetCloudDBProductListRequest](docs/GetCloudDBProductListRequest.md)
  - [Clouddb.GetCloudDBProductListResponse](docs/GetCloudDBProductListResponse.md)
+ - [Clouddb.GetDmsOperationRequest](docs/GetDmsOperationRequest.md)
+ - [Clouddb.GetDmsOperationResponse](docs/GetDmsOperationResponse.md)
+ - [Clouddb.GetObjectStorageBackupListRequest](docs/GetObjectStorageBackupListRequest.md)
+ - [Clouddb.GetObjectStorageBackupListResponse](docs/GetObjectStorageBackupListResponse.md)
  - [Clouddb.Product](docs/Product.md)
  - [Clouddb.RebootCloudDBServerInstanceRequest](docs/RebootCloudDBServerInstanceRequest.md)
  - [Clouddb.RebootCloudDBServerInstanceResponse](docs/RebootCloudDBServerInstanceResponse.md)
  - [Clouddb.Region](docs/Region.md)
+ - [Clouddb.RestoreDmsDatabaseRequest](docs/RestoreDmsDatabaseRequest.md)
+ - [Clouddb.RestoreDmsDatabaseResponse](docs/RestoreDmsDatabaseResponse.md)
+ - [Clouddb.RestoreDmsTransactionLogRequest](docs/RestoreDmsTransactionLogRequest.md)
+ - [Clouddb.RestoreDmsTransactionLogResponse](docs/RestoreDmsTransactionLogResponse.md)
+ - [Clouddb.SetObjectStorageInfoRequest](docs/SetObjectStorageInfoRequest.md)
+ - [Clouddb.SetObjectStorageInfoResponse](docs/SetObjectStorageInfoResponse.md)
+ - [Clouddb.UploadDmsFileRequest](docs/UploadDmsFileRequest.md)
+ - [Clouddb.UploadDmsFileResponse](docs/UploadDmsFileResponse.md)
  - [Clouddb.Zone](docs/Zone.md)
 
 

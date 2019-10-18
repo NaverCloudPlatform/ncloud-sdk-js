@@ -7,40 +7,55 @@ Method | HTTP request | Description
 [**addNasVolumeAccessControl**](V2Api.md#addNasVolumeAccessControl) | **POST** /addNasVolumeAccessControl | 
 [**addPortForwardingRules**](V2Api.md#addPortForwardingRules) | **POST** /addPortForwardingRules | 
 [**associatePublicIpWithServerInstance**](V2Api.md#associatePublicIpWithServerInstance) | **POST** /associatePublicIpWithServerInstance | 
+[**attachBlockStorageInstance**](V2Api.md#attachBlockStorageInstance) | **POST** /attachBlockStorageInstance | 
+[**attachNetworkInterface**](V2Api.md#attachNetworkInterface) | **POST** /attachNetworkInterface | 
 [**changeNasVolumeSize**](V2Api.md#changeNasVolumeSize) | **POST** /changeNasVolumeSize | 
 [**changeServerInstanceSpec**](V2Api.md#changeServerInstanceSpec) | **POST** /changeServerInstanceSpec | 
 [**createBlockStorageInstance**](V2Api.md#createBlockStorageInstance) | **POST** /createBlockStorageInstance | 
+[**createBlockStorageSnapshotInstance**](V2Api.md#createBlockStorageSnapshotInstance) | **POST** /createBlockStorageSnapshotInstance | 
+[**createInstanceTags**](V2Api.md#createInstanceTags) | **POST** /createInstanceTags | 
 [**createLoginKey**](V2Api.md#createLoginKey) | **POST** /createLoginKey | 
 [**createMemberServerImage**](V2Api.md#createMemberServerImage) | **POST** /createMemberServerImage | 
 [**createNasVolumeInstance**](V2Api.md#createNasVolumeInstance) | **POST** /createNasVolumeInstance | 
+[**createNetworkInterface**](V2Api.md#createNetworkInterface) | **POST** /createNetworkInterface | 
 [**createPublicIpInstance**](V2Api.md#createPublicIpInstance) | **POST** /createPublicIpInstance | 
 [**createServerInstances**](V2Api.md#createServerInstances) | **POST** /createServerInstances | 
 [**deleteBlockStorageInstances**](V2Api.md#deleteBlockStorageInstances) | **POST** /deleteBlockStorageInstances | 
+[**deleteBlockStorageSnapshotInstances**](V2Api.md#deleteBlockStorageSnapshotInstances) | **POST** /deleteBlockStorageSnapshotInstances | 
+[**deleteInstanceTags**](V2Api.md#deleteInstanceTags) | **POST** /deleteInstanceTags | 
 [**deleteLoginKey**](V2Api.md#deleteLoginKey) | **POST** /deleteLoginKey | 
 [**deleteMemberServerImages**](V2Api.md#deleteMemberServerImages) | **POST** /deleteMemberServerImages | 
 [**deleteNasVolumeInstance**](V2Api.md#deleteNasVolumeInstance) | **POST** /deleteNasVolumeInstance | 
+[**deleteNetworkInterface**](V2Api.md#deleteNetworkInterface) | **POST** /deleteNetworkInterface | 
 [**deletePortForwardingRules**](V2Api.md#deletePortForwardingRules) | **POST** /deletePortForwardingRules | 
 [**deletePublicIpInstances**](V2Api.md#deletePublicIpInstances) | **POST** /deletePublicIpInstances | 
+[**detachBlockStorageInstances**](V2Api.md#detachBlockStorageInstances) | **POST** /detachBlockStorageInstances | 
+[**detachNetworkInterface**](V2Api.md#detachNetworkInterface) | **POST** /detachNetworkInterface | 
 [**disassociatePublicIpFromServerInstance**](V2Api.md#disassociatePublicIpFromServerInstance) | **POST** /disassociatePublicIpFromServerInstance | 
 [**getAccessControlGroupList**](V2Api.md#getAccessControlGroupList) | **POST** /getAccessControlGroupList | 
 [**getAccessControlGroupServerInstanceList**](V2Api.md#getAccessControlGroupServerInstanceList) | **POST** /getAccessControlGroupServerInstanceList | 
 [**getAccessControlRuleList**](V2Api.md#getAccessControlRuleList) | **POST** /getAccessControlRuleList | 
 [**getBlockStorageInstanceList**](V2Api.md#getBlockStorageInstanceList) | **POST** /getBlockStorageInstanceList | 
 [**getBlockStorageSnapshotInstanceList**](V2Api.md#getBlockStorageSnapshotInstanceList) | **POST** /getBlockStorageSnapshotInstanceList | 
+[**getInstanceTagList**](V2Api.md#getInstanceTagList) | **POST** /getInstanceTagList | 
 [**getLoginKeyList**](V2Api.md#getLoginKeyList) | **POST** /getLoginKeyList | 
 [**getMemberServerImageList**](V2Api.md#getMemberServerImageList) | **POST** /getMemberServerImageList | 
 [**getNasVolumeInstanceList**](V2Api.md#getNasVolumeInstanceList) | **POST** /getNasVolumeInstanceList | 
 [**getNasVolumeInstanceRatingList**](V2Api.md#getNasVolumeInstanceRatingList) | **POST** /getNasVolumeInstanceRatingList | 
+[**getNetworkInterfaceList**](V2Api.md#getNetworkInterfaceList) | **POST** /getNetworkInterfaceList | 
 [**getPortForwardingRuleList**](V2Api.md#getPortForwardingRuleList) | **POST** /getPortForwardingRuleList | 
+[**getPrivateSubnetInstanceList**](V2Api.md#getPrivateSubnetInstanceList) | **POST** /getPrivateSubnetInstanceList | 
 [**getPublicIpInstanceList**](V2Api.md#getPublicIpInstanceList) | **POST** /getPublicIpInstanceList | 
 [**getPublicIpTargetServerInstanceList**](V2Api.md#getPublicIpTargetServerInstanceList) | **POST** /getPublicIpTargetServerInstanceList | 
 [**getRaidList**](V2Api.md#getRaidList) | **POST** /getRaidList | 
 [**getRegionList**](V2Api.md#getRegionList) | **POST** /getRegionList | 
 [**getRootPassword**](V2Api.md#getRootPassword) | **POST** /getRootPassword | 
+[**getRootPasswordServerInstanceList**](V2Api.md#getRootPasswordServerInstanceList) | **POST** /getRootPasswordServerInstanceList | 
 [**getServerImageProductList**](V2Api.md#getServerImageProductList) | **POST** /getServerImageProductList | 
 [**getServerInstanceList**](V2Api.md#getServerInstanceList) | **POST** /getServerInstanceList | 
 [**getServerProductList**](V2Api.md#getServerProductList) | **POST** /getServerProductList | 
 [**getZoneList**](V2Api.md#getZoneList) | **POST** /getZoneList | 
+[**importLoginKey**](V2Api.md#importLoginKey) | **POST** /importLoginKey | 
 [**rebootServerInstances**](V2Api.md#rebootServerInstances) | **POST** /rebootServerInstances | 
 [**recreateServerInstance**](V2Api.md#recreateServerInstance) | **POST** /recreateServerInstance | 
 [**removeNasVolumeAccessControl**](V2Api.md#removeNasVolumeAccessControl) | **POST** /removeNasVolumeAccessControl | 
@@ -190,6 +205,106 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**AssociatePublicIpWithServerInstanceResponse**](AssociatePublicIpWithServerInstanceResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="attachBlockStorageInstance"></a>
+# **attachBlockStorageInstance**
+> AttachBlockStorageInstanceResponse attachBlockStorageInstance(attachBlockStorageInstanceRequest)
+
+
+
+블록스토리지인스턴스할당
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var attachBlockStorageInstanceRequest = new Server.AttachBlockStorageInstanceRequest(); // AttachBlockStorageInstanceRequest | attachBlockStorageInstanceRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.attachBlockStorageInstance(attachBlockStorageInstanceRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **attachBlockStorageInstanceRequest** | [**AttachBlockStorageInstanceRequest**](AttachBlockStorageInstanceRequest.md)| attachBlockStorageInstanceRequest | 
+
+### Return type
+
+[**AttachBlockStorageInstanceResponse**](AttachBlockStorageInstanceResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="attachNetworkInterface"></a>
+# **attachNetworkInterface**
+> AttachNetworkInterfaceResponse attachNetworkInterface(attachNetworkInterfaceRequest)
+
+
+
+Network Interface Attach
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var attachNetworkInterfaceRequest = new Server.AttachNetworkInterfaceRequest(); // AttachNetworkInterfaceRequest | attachNetworkInterfaceRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.attachNetworkInterface(attachNetworkInterfaceRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **attachNetworkInterfaceRequest** | [**AttachNetworkInterfaceRequest**](AttachNetworkInterfaceRequest.md)| attachNetworkInterfaceRequest | 
+
+### Return type
+
+[**AttachNetworkInterfaceResponse**](AttachNetworkInterfaceResponse.md)
 
 ### Authorization
 
@@ -350,6 +465,106 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
+<a name="createBlockStorageSnapshotInstance"></a>
+# **createBlockStorageSnapshotInstance**
+> CreateBlockStorageSnapshotInstanceResponse createBlockStorageSnapshotInstance(createBlockStorageSnapshotInstanceRequest)
+
+
+
+블록스토리지스냅샷인스턴스생성
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var createBlockStorageSnapshotInstanceRequest = new Server.CreateBlockStorageSnapshotInstanceRequest(); // CreateBlockStorageSnapshotInstanceRequest | createBlockStorageSnapshotInstanceRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.createBlockStorageSnapshotInstance(createBlockStorageSnapshotInstanceRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **createBlockStorageSnapshotInstanceRequest** | [**CreateBlockStorageSnapshotInstanceRequest**](CreateBlockStorageSnapshotInstanceRequest.md)| createBlockStorageSnapshotInstanceRequest | 
+
+### Return type
+
+[**CreateBlockStorageSnapshotInstanceResponse**](CreateBlockStorageSnapshotInstanceResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="createInstanceTags"></a>
+# **createInstanceTags**
+> CreateInstanceTagsResponse createInstanceTags(createInstanceTagsRequest)
+
+
+
+인스턴스태그생성
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var createInstanceTagsRequest = new Server.CreateInstanceTagsRequest(); // CreateInstanceTagsRequest | createInstanceTagsRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.createInstanceTags(createInstanceTagsRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **createInstanceTagsRequest** | [**CreateInstanceTagsRequest**](CreateInstanceTagsRequest.md)| createInstanceTagsRequest | 
+
+### Return type
+
+[**CreateInstanceTagsResponse**](CreateInstanceTagsResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
 <a name="createLoginKey"></a>
 # **createLoginKey**
 > CreateLoginKeyResponse createLoginKey(createLoginKeyRequest)
@@ -490,6 +705,56 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**CreateNasVolumeInstanceResponse**](CreateNasVolumeInstanceResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="createNetworkInterface"></a>
+# **createNetworkInterface**
+> CreateNetworkInterfaceResponse createNetworkInterface(createNetworkInterfaceRequest)
+
+
+
+Network Interface 생성
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var createNetworkInterfaceRequest = new Server.CreateNetworkInterfaceRequest(); // CreateNetworkInterfaceRequest | createNetworkInterfaceRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.createNetworkInterface(createNetworkInterfaceRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **createNetworkInterfaceRequest** | [**CreateNetworkInterfaceRequest**](CreateNetworkInterfaceRequest.md)| createNetworkInterfaceRequest | 
+
+### Return type
+
+[**CreateNetworkInterfaceResponse**](CreateNetworkInterfaceResponse.md)
 
 ### Authorization
 
@@ -650,6 +915,106 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
+<a name="deleteBlockStorageSnapshotInstances"></a>
+# **deleteBlockStorageSnapshotInstances**
+> DeleteBlockStorageSnapshotInstancesResponse deleteBlockStorageSnapshotInstances(deleteBlockStorageSnapshotInstancesRequest)
+
+
+
+블록스토리지스냅샷인스턴스삭제
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var deleteBlockStorageSnapshotInstancesRequest = new Server.DeleteBlockStorageSnapshotInstancesRequest(); // DeleteBlockStorageSnapshotInstancesRequest | deleteBlockStorageSnapshotInstancesRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.deleteBlockStorageSnapshotInstances(deleteBlockStorageSnapshotInstancesRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **deleteBlockStorageSnapshotInstancesRequest** | [**DeleteBlockStorageSnapshotInstancesRequest**](DeleteBlockStorageSnapshotInstancesRequest.md)| deleteBlockStorageSnapshotInstancesRequest | 
+
+### Return type
+
+[**DeleteBlockStorageSnapshotInstancesResponse**](DeleteBlockStorageSnapshotInstancesResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="deleteInstanceTags"></a>
+# **deleteInstanceTags**
+> DeleteInstanceTagsResponse deleteInstanceTags(deleteInstanceTagsRequest)
+
+
+
+인스턴스태그삭제
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var deleteInstanceTagsRequest = new Server.DeleteInstanceTagsRequest(); // DeleteInstanceTagsRequest | deleteInstanceTagsRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.deleteInstanceTags(deleteInstanceTagsRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **deleteInstanceTagsRequest** | [**DeleteInstanceTagsRequest**](DeleteInstanceTagsRequest.md)| deleteInstanceTagsRequest | 
+
+### Return type
+
+[**DeleteInstanceTagsResponse**](DeleteInstanceTagsResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
 <a name="deleteLoginKey"></a>
 # **deleteLoginKey**
 > DeleteLoginKeyResponse deleteLoginKey(deleteLoginKeyRequest)
@@ -800,6 +1165,56 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
+<a name="deleteNetworkInterface"></a>
+# **deleteNetworkInterface**
+> DeleteNetworkInterfaceResponse deleteNetworkInterface(deleteNetworkInterfaceRequest)
+
+
+
+Network Interface 삭제
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var deleteNetworkInterfaceRequest = new Server.DeleteNetworkInterfaceRequest(); // DeleteNetworkInterfaceRequest | deleteNetworkInterfaceRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.deleteNetworkInterface(deleteNetworkInterfaceRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **deleteNetworkInterfaceRequest** | [**DeleteNetworkInterfaceRequest**](DeleteNetworkInterfaceRequest.md)| deleteNetworkInterfaceRequest | 
+
+### Return type
+
+[**DeleteNetworkInterfaceResponse**](DeleteNetworkInterfaceResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
 <a name="deletePortForwardingRules"></a>
 # **deletePortForwardingRules**
 > DeletePortForwardingRulesResponse deletePortForwardingRules(deletePortForwardingRulesRequest)
@@ -890,6 +1305,106 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**DeletePublicIpInstancesResponse**](DeletePublicIpInstancesResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="detachBlockStorageInstances"></a>
+# **detachBlockStorageInstances**
+> DetachBlockStorageInstancesResponse detachBlockStorageInstances(detachBlockStorageInstancesRequest)
+
+
+
+블록스토리지인스턴스할당해제
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var detachBlockStorageInstancesRequest = new Server.DetachBlockStorageInstancesRequest(); // DetachBlockStorageInstancesRequest | detachBlockStorageInstancesRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.detachBlockStorageInstances(detachBlockStorageInstancesRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **detachBlockStorageInstancesRequest** | [**DetachBlockStorageInstancesRequest**](DetachBlockStorageInstancesRequest.md)| detachBlockStorageInstancesRequest | 
+
+### Return type
+
+[**DetachBlockStorageInstancesResponse**](DetachBlockStorageInstancesResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="detachNetworkInterface"></a>
+# **detachNetworkInterface**
+> DetachNetworkInterfaceResponse detachNetworkInterface(detachNetworkInterfaceRequest)
+
+
+
+Network Interface Detach
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var detachNetworkInterfaceRequest = new Server.DetachNetworkInterfaceRequest(); // DetachNetworkInterfaceRequest | detachNetworkInterfaceRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.detachNetworkInterface(detachNetworkInterfaceRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **detachNetworkInterfaceRequest** | [**DetachNetworkInterfaceRequest**](DetachNetworkInterfaceRequest.md)| detachNetworkInterfaceRequest | 
+
+### Return type
+
+[**DetachNetworkInterfaceResponse**](DetachNetworkInterfaceResponse.md)
 
 ### Authorization
 
@@ -1200,6 +1715,56 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
+<a name="getInstanceTagList"></a>
+# **getInstanceTagList**
+> GetInstanceTagListResponse getInstanceTagList(getInstanceTagListRequest)
+
+
+
+인스턴스태그리스트조회
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var getInstanceTagListRequest = new Server.GetInstanceTagListRequest(); // GetInstanceTagListRequest | getInstanceTagListRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.getInstanceTagList(getInstanceTagListRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **getInstanceTagListRequest** | [**GetInstanceTagListRequest**](GetInstanceTagListRequest.md)| getInstanceTagListRequest | 
+
+### Return type
+
+[**GetInstanceTagListResponse**](GetInstanceTagListResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
 <a name="getLoginKeyList"></a>
 # **getLoginKeyList**
 > GetLoginKeyListResponse getLoginKeyList(getLoginKeyListRequest)
@@ -1400,6 +1965,56 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
+<a name="getNetworkInterfaceList"></a>
+# **getNetworkInterfaceList**
+> GetNetworkInterfaceListResponse getNetworkInterfaceList(getNetworkInterfaceListRequest)
+
+
+
+Network Interface 리스트조회
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var getNetworkInterfaceListRequest = new Server.GetNetworkInterfaceListRequest(); // GetNetworkInterfaceListRequest | getNetworkInterfaceListRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.getNetworkInterfaceList(getNetworkInterfaceListRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **getNetworkInterfaceListRequest** | [**GetNetworkInterfaceListRequest**](GetNetworkInterfaceListRequest.md)| getNetworkInterfaceListRequest | 
+
+### Return type
+
+[**GetNetworkInterfaceListResponse**](GetNetworkInterfaceListResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
 <a name="getPortForwardingRuleList"></a>
 # **getPortForwardingRuleList**
 > GetPortForwardingRuleListResponse getPortForwardingRuleList(getPortForwardingRuleListRequest)
@@ -1440,6 +2055,56 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**GetPortForwardingRuleListResponse**](GetPortForwardingRuleListResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="getPrivateSubnetInstanceList"></a>
+# **getPrivateSubnetInstanceList**
+> GetPrivateSubnetInstanceListResponse getPrivateSubnetInstanceList(getPrivateSubnetInstanceListRequest)
+
+
+
+Private Subnet 인스턴스리스트조회
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var getPrivateSubnetInstanceListRequest = new Server.GetPrivateSubnetInstanceListRequest(); // GetPrivateSubnetInstanceListRequest | getPrivateSubnetInstanceListRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.getPrivateSubnetInstanceList(getPrivateSubnetInstanceListRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **getPrivateSubnetInstanceListRequest** | [**GetPrivateSubnetInstanceListRequest**](GetPrivateSubnetInstanceListRequest.md)| getPrivateSubnetInstanceListRequest | 
+
+### Return type
+
+[**GetPrivateSubnetInstanceListResponse**](GetPrivateSubnetInstanceListResponse.md)
 
 ### Authorization
 
@@ -1700,6 +2365,56 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
+<a name="getRootPasswordServerInstanceList"></a>
+# **getRootPasswordServerInstanceList**
+> GetRootPasswordServerInstanceListResponse getRootPasswordServerInstanceList(getRootPasswordServerInstanceListRequest)
+
+
+
+루트패스워드서버인스턴스리스트조회
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var getRootPasswordServerInstanceListRequest = new Server.GetRootPasswordServerInstanceListRequest(); // GetRootPasswordServerInstanceListRequest | getRootPasswordServerInstanceListRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.getRootPasswordServerInstanceList(getRootPasswordServerInstanceListRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **getRootPasswordServerInstanceListRequest** | [**GetRootPasswordServerInstanceListRequest**](GetRootPasswordServerInstanceListRequest.md)| getRootPasswordServerInstanceListRequest | 
+
+### Return type
+
+[**GetRootPasswordServerInstanceListResponse**](GetRootPasswordServerInstanceListResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
 <a name="getServerImageProductList"></a>
 # **getServerImageProductList**
 > GetServerImageProductListResponse getServerImageProductList(getServerImageProductListRequest)
@@ -1890,6 +2605,56 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**GetZoneListResponse**](GetZoneListResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="importLoginKey"></a>
+# **importLoginKey**
+> ImportLoginKeyResponse importLoginKey(importLoginKeyRequest)
+
+
+
+로그인키IMPORT
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var importLoginKeyRequest = new Server.ImportLoginKeyRequest(); // ImportLoginKeyRequest | importLoginKeyRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.importLoginKey(importLoginKeyRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **importLoginKeyRequest** | [**ImportLoginKeyRequest**](ImportLoginKeyRequest.md)| importLoginKeyRequest | 
+
+### Return type
+
+[**ImportLoginKeyResponse**](ImportLoginKeyResponse.md)
 
 ### Authorization
 

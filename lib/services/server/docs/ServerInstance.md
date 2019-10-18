@@ -34,5 +34,6 @@ Name | Type | Description | Notes
 **serverInstanceType** | [**CommonCode**](CommonCode.md) | 서버인스턴스구분 | [optional] 
 **userData** | **String** | 사용자데이타 | [optional] 
 **accessControlGroupList** | [**[AccessControlGroup]**](AccessControlGroup.md) | ACG리스트 | [optional] 
+**instanceTagList** | [**[InstanceTag]**](InstanceTag.md) | 인스턴스태그리스트 | [optional] 
 
 

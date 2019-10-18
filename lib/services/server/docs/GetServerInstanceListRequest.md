@@ -17,5 +17,7 @@ Name | Type | Description | Notes
 **sortedBy** | **String** | 소팅대상 | [optional] 
 **sortingOrder** | **String** | 소팅순서 | [optional] 
 **serverInstanceTypeCodeList** | **[String]** | 서비인스턴스구분코드리스트 | [optional] 
+**tagKeyList** | **[String]** | 태그키리스트 | [optional] 
+**tagValueList** | **[String]** | 태그값리스트 | [optional] 
 
 
