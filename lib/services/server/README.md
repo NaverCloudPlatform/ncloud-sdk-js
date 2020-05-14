@@ -108,6 +108,7 @@ Class | Method | HTTP request | Description
 *Server.V2Api* | [**getAccessControlRuleList**](docs/V2Api.md#getAccessControlRuleList) | **POST** /getAccessControlRuleList | 
 *Server.V2Api* | [**getBlockStorageInstanceList**](docs/V2Api.md#getBlockStorageInstanceList) | **POST** /getBlockStorageInstanceList | 
 *Server.V2Api* | [**getBlockStorageSnapshotInstanceList**](docs/V2Api.md#getBlockStorageSnapshotInstanceList) | **POST** /getBlockStorageSnapshotInstanceList | 
+*Server.V2Api* | [**getInitScriptList**](docs/V2Api.md#getInitScriptList) | **POST** /getInitScriptList | 
 *Server.V2Api* | [**getInstanceTagList**](docs/V2Api.md#getInstanceTagList) | **POST** /getInstanceTagList | 
 *Server.V2Api* | [**getLoginKeyList**](docs/V2Api.md#getLoginKeyList) | **POST** /getLoginKeyList | 
 *Server.V2Api* | [**getMemberServerImageList**](docs/V2Api.md#getMemberServerImageList) | **POST** /getMemberServerImageList | 
@@ -130,6 +131,7 @@ Class | Method | HTTP request | Description
 *Server.V2Api* | [**rebootServerInstances**](docs/V2Api.md#rebootServerInstances) | **POST** /rebootServerInstances | 
 *Server.V2Api* | [**recreateServerInstance**](docs/V2Api.md#recreateServerInstance) | **POST** /recreateServerInstance | 
 *Server.V2Api* | [**removeNasVolumeAccessControl**](docs/V2Api.md#removeNasVolumeAccessControl) | **POST** /removeNasVolumeAccessControl | 
+*Server.V2Api* | [**replaceServerInstanceAssociatedWithPublicIp**](docs/V2Api.md#replaceServerInstanceAssociatedWithPublicIp) | **POST** /replaceServerInstanceAssociatedWithPublicIp | 
 *Server.V2Api* | [**setNasVolumeAccessControl**](docs/V2Api.md#setNasVolumeAccessControl) | **POST** /setNasVolumeAccessControl | 
 *Server.V2Api* | [**startServerInstances**](docs/V2Api.md#startServerInstances) | **POST** /startServerInstances | 
 *Server.V2Api* | [**stopServerInstances**](docs/V2Api.md#stopServerInstances) | **POST** /stopServerInstances | 
@@ -209,6 +211,8 @@ Class | Method | HTTP request | Description
  - [Server.GetBlockStorageInstanceListResponse](docs/GetBlockStorageInstanceListResponse.md)
  - [Server.GetBlockStorageSnapshotInstanceListRequest](docs/GetBlockStorageSnapshotInstanceListRequest.md)
  - [Server.GetBlockStorageSnapshotInstanceListResponse](docs/GetBlockStorageSnapshotInstanceListResponse.md)
+ - [Server.GetInitScriptListRequest](docs/GetInitScriptListRequest.md)
+ - [Server.GetInitScriptListResponse](docs/GetInitScriptListResponse.md)
  - [Server.GetInstanceTagListRequest](docs/GetInstanceTagListRequest.md)
  - [Server.GetInstanceTagListResponse](docs/GetInstanceTagListResponse.md)
  - [Server.GetLoginKeyListRequest](docs/GetLoginKeyListRequest.md)
@@ -247,6 +251,7 @@ Class | Method | HTTP request | Description
  - [Server.GetZoneListResponse](docs/GetZoneListResponse.md)
  - [Server.ImportLoginKeyRequest](docs/ImportLoginKeyRequest.md)
  - [Server.ImportLoginKeyResponse](docs/ImportLoginKeyResponse.md)
+ - [Server.InitScript](docs/InitScript.md)
  - [Server.InstanceTag](docs/InstanceTag.md)
  - [Server.InstanceTagParameter](docs/InstanceTagParameter.md)
  - [Server.LoginKey](docs/LoginKey.md)
@@ -268,6 +273,8 @@ Class | Method | HTTP request | Description
  - [Server.Region](docs/Region.md)
  - [Server.RemoveNasVolumeAccessControlRequest](docs/RemoveNasVolumeAccessControlRequest.md)
  - [Server.RemoveNasVolumeAccessControlResponse](docs/RemoveNasVolumeAccessControlResponse.md)
+ - [Server.ReplaceServerInstanceAssociatedWithPublicIpRequest](docs/ReplaceServerInstanceAssociatedWithPublicIpRequest.md)
+ - [Server.ReplaceServerInstanceAssociatedWithPublicIpResponse](docs/ReplaceServerInstanceAssociatedWithPublicIpResponse.md)
  - [Server.RootPasswordServerInstance](docs/RootPasswordServerInstance.md)
  - [Server.RootPasswordServerInstanceParameter](docs/RootPasswordServerInstanceParameter.md)
  - [Server.ServerInstance](docs/ServerInstance.md)

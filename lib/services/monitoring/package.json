@@ -2,7 +2,7 @@
   "name": "ncloud-monitoring",
   "authors": "NAVER BUSINESS PLATFORM Corp.",
   "description": "monitoring client library for Naver Cloud Platform",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "homepage": "http://github.com/NaverCloudPlatform/ncloud-sdk-js",
   "license": "MIT",
   "main": "src/index.js",

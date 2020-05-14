@@ -8,5 +8,6 @@ Name | Type | Description | Notes
 **serverImageProductCode** | **String** | 서버이미지상품코드 | [optional] 
 **userData** | **String** | 사용자데이터 | [optional] 
 **instanceTagList** | [**[InstanceTagParameter]**](InstanceTagParameter.md) | 인스턴스태그리스트 | [optional] 
+**isVaccineInstall** | **Boolean** | 백신설치여부 | [optional] 
 
 

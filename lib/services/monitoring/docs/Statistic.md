@@ -4,6 +4,6 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **instanceNo** | **String** |  | [optional] 
-**dataPointsList** | [**[DataPoints]**](DataPoints.md) |  | [optional] 
+**dataPoints** | [**[DataPoints]**](DataPoints.md) |  | [optional] 
 
 

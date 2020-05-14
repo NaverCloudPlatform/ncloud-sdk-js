@@ -37,6 +37,7 @@ Method | HTTP request | Description
 [**getAccessControlRuleList**](V2Api.md#getAccessControlRuleList) | **POST** /getAccessControlRuleList | 
 [**getBlockStorageInstanceList**](V2Api.md#getBlockStorageInstanceList) | **POST** /getBlockStorageInstanceList | 
 [**getBlockStorageSnapshotInstanceList**](V2Api.md#getBlockStorageSnapshotInstanceList) | **POST** /getBlockStorageSnapshotInstanceList | 
+[**getInitScriptList**](V2Api.md#getInitScriptList) | **POST** /getInitScriptList | 
 [**getInstanceTagList**](V2Api.md#getInstanceTagList) | **POST** /getInstanceTagList | 
 [**getLoginKeyList**](V2Api.md#getLoginKeyList) | **POST** /getLoginKeyList | 
 [**getMemberServerImageList**](V2Api.md#getMemberServerImageList) | **POST** /getMemberServerImageList | 
@@ -59,6 +60,7 @@ Method | HTTP request | Description
 [**rebootServerInstances**](V2Api.md#rebootServerInstances) | **POST** /rebootServerInstances | 
 [**recreateServerInstance**](V2Api.md#recreateServerInstance) | **POST** /recreateServerInstance | 
 [**removeNasVolumeAccessControl**](V2Api.md#removeNasVolumeAccessControl) | **POST** /removeNasVolumeAccessControl | 
+[**replaceServerInstanceAssociatedWithPublicIp**](V2Api.md#replaceServerInstanceAssociatedWithPublicIp) | **POST** /replaceServerInstanceAssociatedWithPublicIp | 
 [**setNasVolumeAccessControl**](V2Api.md#setNasVolumeAccessControl) | **POST** /setNasVolumeAccessControl | 
 [**startServerInstances**](V2Api.md#startServerInstances) | **POST** /startServerInstances | 
 [**stopServerInstances**](V2Api.md#stopServerInstances) | **POST** /stopServerInstances | 
@@ -1715,6 +1717,56 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
+<a name="getInitScriptList"></a>
+# **getInitScriptList**
+> GetInitScriptListResponse getInitScriptList(getInitScriptListRqeust)
+
+
+
+초기화스크립트리스트조회
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var getInitScriptListRqeust = new Server.GetInitScriptListRequest(); // GetInitScriptListRequest | getInitScriptListRqeust
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.getInitScriptList(getInitScriptListRqeust, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **getInitScriptListRqeust** | [**GetInitScriptListRequest**](GetInitScriptListRequest.md)| getInitScriptListRqeust | 
+
+### Return type
+
+[**GetInitScriptListResponse**](GetInitScriptListResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
 <a name="getInstanceTagList"></a>
 # **getInstanceTagList**
 > GetInstanceTagListResponse getInstanceTagList(getInstanceTagListRequest)
@@ -2805,6 +2857,56 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**RemoveNasVolumeAccessControlResponse**](RemoveNasVolumeAccessControlResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="replaceServerInstanceAssociatedWithPublicIp"></a>
+# **replaceServerInstanceAssociatedWithPublicIp**
+> ReplaceServerInstanceAssociatedWithPublicIpResponse replaceServerInstanceAssociatedWithPublicIp(replaceServerInstanceAssociatedWithPublicIpRequest)
+
+
+
+공인IP서버인스턴스교체
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var replaceServerInstanceAssociatedWithPublicIpRequest = new Server.ReplaceServerInstanceAssociatedWithPublicIpRequest(); // ReplaceServerInstanceAssociatedWithPublicIpRequest | replaceServerInstanceAssociatedWithPublicIpRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.replaceServerInstanceAssociatedWithPublicIp(replaceServerInstanceAssociatedWithPublicIpRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **replaceServerInstanceAssociatedWithPublicIpRequest** | [**ReplaceServerInstanceAssociatedWithPublicIpRequest**](ReplaceServerInstanceAssociatedWithPublicIpRequest.md)| replaceServerInstanceAssociatedWithPublicIpRequest | 
+
+### Return type
+
+[**ReplaceServerInstanceAssociatedWithPublicIpResponse**](ReplaceServerInstanceAssociatedWithPublicIpResponse.md)
 
 ### Authorization
 
