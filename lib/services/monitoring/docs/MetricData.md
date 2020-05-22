@@ -1,4 +1,4 @@
-# Monitoring.DataPoints
+# Monitoring.MetricData
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# Monitoring.GetMetricStatisticsRequest
+# Monitoring.GetMetricStatisticListRequest
 
 ## Properties
 Name | Type | Description | Notes

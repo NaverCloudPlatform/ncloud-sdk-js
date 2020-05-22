@@ -5,7 +5,7 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/monitoring/v2*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**getListMetrics**](V2Api.md#getListMetrics) | **POST** /getListMetrics | 
-[**getMetricStatistics**](V2Api.md#getMetricStatistics) | **POST** /getMetricStatistics | 
+[**getMetricStatisticList**](V2Api.md#getMetricStatisticList) | **POST** /getMetricStatisticList | 
 
 
 <a name="getListMetrics"></a>
@@ -14,7 +14,7 @@ Method | HTTP request | Description
 
 
 
-B.메트릭 리스트 조회
+A.메트릭 통계 조회
 
 ### Example
 ```javascript
@@ -58,9 +58,9 @@ Name | Type | Description  | Notes
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: Not defined
 
-<a name="getMetricStatistics"></a>
-# **getMetricStatistics**
-> GetMetricStatisticsResponse getMetricStatistics(getMetricStatisticsRequest)
+<a name="getMetricStatisticList"></a>
+# **getMetricStatisticList**
+> GetMetricStatisticListResponse getMetricStatisticList(getMetricStatisticListRequest)
 
 
 
@@ -76,7 +76,7 @@ var client = new Monitoring.ApiClient({
 
 var apiInstance = new Monitoring.V2Api();
 
-var getMetricStatisticsRequest = new Monitoring.GetMetricStatisticsRequest(); // GetMetricStatisticsRequest | getMetricStatisticsRequest
+var getMetricStatisticListRequest = new Monitoring.GetMetricStatisticListRequest(); // GetMetricStatisticListRequest | getMetricStatisticListRequest
 
 
 var callback = function(error, data, response) {
@@ -86,18 +86,18 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
-apiInstance.getMetricStatistics(getMetricStatisticsRequest, callback);
+apiInstance.getMetricStatisticList(getMetricStatisticListRequest, callback);
 ```
 
 ### Parameters
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **getMetricStatisticsRequest** | [**GetMetricStatisticsRequest**](GetMetricStatisticsRequest.md)| getMetricStatisticsRequest | 
+ **getMetricStatisticListRequest** | [**GetMetricStatisticListRequest**](GetMetricStatisticListRequest.md)| getMetricStatisticListRequest | 
 
 ### Return type
 
-[**GetMetricStatisticsResponse**](GetMetricStatisticsResponse.md)
+[**GetMetricStatisticListResponse**](GetMetricStatisticListResponse.md)
 
 ### Authorization
 
@@ -105,6 +105,6 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: application/x-www-form-urlencoded
+ - **Content-Type**: Not defined
  - **Accept**: Not defined
 

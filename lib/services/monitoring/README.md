@@ -76,19 +76,19 @@ All URIs are relative to *https://ncloud.apigw.ntruss.com/monitoring/v2*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *Monitoring.V2Api* | [**getListMetrics**](docs/V2Api.md#getListMetrics) | **POST** /getListMetrics | 
-*Monitoring.V2Api* | [**getMetricStatistics**](docs/V2Api.md#getMetricStatistics) | **POST** /getMetricStatistics | 
+*Monitoring.V2Api* | [**getMetricStatisticList**](docs/V2Api.md#getMetricStatisticList) | **POST** /getMetricStatisticList | 
 
 
 ## Documentation for Models
 
  - [Monitoring.DataPoint](docs/DataPoint.md)
- - [Monitoring.DataPoints](docs/DataPoints.md)
  - [Monitoring.GetListMetricsRequest](docs/GetListMetricsRequest.md)
  - [Monitoring.GetListMetricsResponse](docs/GetListMetricsResponse.md)
- - [Monitoring.GetMetricStatisticsRequest](docs/GetMetricStatisticsRequest.md)
- - [Monitoring.GetMetricStatisticsResponse](docs/GetMetricStatisticsResponse.md)
+ - [Monitoring.GetMetricStatisticListRequest](docs/GetMetricStatisticListRequest.md)
+ - [Monitoring.GetMetricStatisticListResponse](docs/GetMetricStatisticListResponse.md)
  - [Monitoring.Metric](docs/Metric.md)
- - [Monitoring.Statistic](docs/Statistic.md)
+ - [Monitoring.MetricData](docs/MetricData.md)
+ - [Monitoring.MetricStatistic](docs/MetricStatistic.md)
 
 
 ### License
