@@ -1,9 +1,9 @@
-# Monitoring.Statistic
+# Monitoring.MetricStatistic
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **instanceNo** | **String** |  | [optional] 
-**dataPoints** | [**[DataPoints]**](DataPoints.md) |  | [optional] 
+**metricDataList** | [**[MetricData]**](MetricData.md) |  | [optional] 
 
 
