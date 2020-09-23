@@ -1,6 +1,6 @@
 {
   "name": "ncloud-sdk",
-  "version": "1.4.0",
+  "version": "1.4.6",
   "main": "index.js",
   "description": "Naver Cloud Platform Client Library for node",
   "homepage": "https://github.com/NaverCloudPlatform/ncloud-sdk-js",
@@ -10,7 +10,9 @@
     "lint": "eslint ."
   },
   "jest": {
-    "testMatch": ["**/__tests__/**/*.js?(x)"]
+    "testMatch": [
+      "**/__tests__/**/*.js?(x)"
+    ]
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

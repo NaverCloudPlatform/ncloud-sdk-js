@@ -62,6 +62,9 @@ instance.getServerInstanceList({}, function(err, data, response) {
 | _Monitoring_   | [**Monitoring**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/monitoring/README.md)     | npm install ncloud-monitoring   |
 | _CDN_          | [**CDN**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/cdn/README.md)                   | npm install ncloud-cdn          |
 | _CloudDB_      | [**CloudDB**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/clouddb/README.md)           | npm install ncloud-clouddb      |
+| _Server(VPC)_  | [**Server(VPC)**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/vserver/README.md)       | npm install ncloud-vserver      |
+| _VPC_          | [**VPC**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/vpc/README.md)                   | npm install ncloud-vpc          |
+| _Nas(VPC)_     | [**Nas(VPC)**](https://github.com/NaverCloudPlatform/ncloud-sdk-js/blob/master/lib/services/vnas/README.md)             | npm install ncloud-vnas         |
 
 ### License
 

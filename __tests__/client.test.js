@@ -6,21 +6,11 @@ const client = new Server.ApiClient(n.keys());
 const instance = new Server.V2Api(client);
 
 test('getLoginKeyList', done => {
-  instance.getLoginKeyList({ keyName: 'rabbit' }, function(err, data) {
+  instance.getRegionList({}, function(err, data) {
     expect(err).toBeNull();
     expect(data).not.toBeNull();
-    expect(data.totalRows).toBe(1);
-    expect(data.loginKeyList[0].keyName).toBe('rabbit');
+    expect(data.regionList[0].regionCode).toBe('KR');
     done();
   });
 });
 
-test('getPublicIpInstanceList', done => {
-  instance.getPublicIpInstanceList({ publicIpInstanceNoList: ['691030', '690456', '690457'] }, function(err, data) {
-    expect(err).toBeNull();
-    expect(data).not.toBeNull();
-    expect(data.totalRows).toBe(3);
-    expect(data.publicIpInstanceList[0].publicIpInstanceNo).toBe('690456');
-    done();
-  });
-});
