@@ -1,6 +1,6 @@
 {
   "name": "ncloud-sdk",
-  "version": "1.4.8",
+  "version": "1.4.10",
   "main": "index.js",
   "description": "Naver Cloud Platform Client Library for node",
   "homepage": "https://github.com/NaverCloudPlatform/ncloud-sdk-js",
@@ -21,6 +21,7 @@
     "jest": "^24.8.0"
   },
   "dependencies": {
-    "ini": "^1.3.5"
+    "ini": "^1.3.5",
+    "superagent": "3.5.2"
   }
 }

@@ -52,6 +52,48 @@ instance.getServerInstanceList({}, function(err, data, response) {
 });
 ```
 
+## Server Role
+
+- Server Role은 서브계정과 유사한 수준의 권한을 Server에 부여하는 서비스로 VPC Server에 적용할 수 있는 서비스입니다. Role이 설정된 Server 내에서 Ncloud SDK 를 실행하면 metadata api를 통해 임시 자격 증명을 받아와서 API인증키로 사용됩니다. 
+- Server Role을 사용하기 위해 ncloud-sdk-js `ncloud.init` 를 호출해서 인증키를 받아야 합니다. Server Role 인증키 적용 방법은 Example 을 참고하시기 바랍니다.
+- [Console](https://console.ncloud.com)의 [Sub Account](https://console.ncloud.com/iam/dashboard) > Roles 메뉴에서 Server Role을 설정할 수 있습니다.
+ 
+### Example
+
+```javascript
+var ncloud = require('ncloud-sdk');
+var Server = require('ncloud-server');
+
+var n = new ncloud();
+n.init(function (err, creds) {
+  if (err) {
+    throw err;
+  }
+  var client = new Server.ApiClient();
+  client.credentials = creds;
+  var instance = new Server.V2Api(client);
+    
+  instance.getServerInstanceList({}, function(err, data, response) {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log('API called successfully. Returned data: ', data);
+    }
+  });  
+});
+
+```
+
+`ncloud.init`를 사용하면 아래 순서로 인증키를 찾습니다: 
+
+1. Environment: NCLOUD_ACCESS_KEY_ID (또는 NCLOUD_ACCESS_KEY), NCLOUD_SECRET_KEY (또는 NCLOUD_SECRET_ACCESS_KEY) 환경변수 정보를 찾습니다. 
+2. Config File: configure 파일에서 인증키를 찾습니다. Mac/Linux 의 경우 ~/.ncloud/configure 에, Windows 의 경우 C:\Users\USERNAME\\.ncloud\configure 에 인증키 정보를 저장합니다.
+3. ServerRole: Server Role이 설정된 VPC Server에서 metadata api 를 통해 임시 인증키를 찾습니다. 임시 인증키는 Role에 부여된 권한이 반영됩니다.
+
+
+
+
+
 ## Documentation for individual modules
 
 | Services       | Documentation                                                                                                           | Install Command                 |
