@@ -80,6 +80,7 @@ Class | Method | HTTP request | Description
 *Server.V2Api* | [**associatePublicIpWithServerInstance**](docs/V2Api.md#associatePublicIpWithServerInstance) | **POST** /associatePublicIpWithServerInstance | 
 *Server.V2Api* | [**attachBlockStorageInstance**](docs/V2Api.md#attachBlockStorageInstance) | **POST** /attachBlockStorageInstance | 
 *Server.V2Api* | [**attachNetworkInterface**](docs/V2Api.md#attachNetworkInterface) | **POST** /attachNetworkInterface | 
+*Server.V2Api* | [**changeBlockStorageVolumeSize**](docs/V2Api.md#changeBlockStorageVolumeSize) | **POST** /changeBlockStorageVolumeSize | 
 *Server.V2Api* | [**changeNasVolumeSize**](docs/V2Api.md#changeNasVolumeSize) | **POST** /changeNasVolumeSize | 
 *Server.V2Api* | [**changeServerInstanceSpec**](docs/V2Api.md#changeServerInstanceSpec) | **POST** /changeServerInstanceSpec | 
 *Server.V2Api* | [**createBlockStorageInstance**](docs/V2Api.md#createBlockStorageInstance) | **POST** /createBlockStorageInstance | 
@@ -154,6 +155,8 @@ Class | Method | HTTP request | Description
  - [Server.AttachNetworkInterfaceResponse](docs/AttachNetworkInterfaceResponse.md)
  - [Server.BlockStorageInstance](docs/BlockStorageInstance.md)
  - [Server.BlockStorageSnapshotInstance](docs/BlockStorageSnapshotInstance.md)
+ - [Server.ChangeBlockStorageVolumeSizeRequest](docs/ChangeBlockStorageVolumeSizeRequest.md)
+ - [Server.ChangeBlockStorageVolumeSizeResponse](docs/ChangeBlockStorageVolumeSizeResponse.md)
  - [Server.ChangeNasVolumeSizeRequest](docs/ChangeNasVolumeSizeRequest.md)
  - [Server.ChangeNasVolumeSizeResponse](docs/ChangeNasVolumeSizeResponse.md)
  - [Server.ChangeServerInstanceSpecRequest](docs/ChangeServerInstanceSpecRequest.md)

@@ -8,5 +8,6 @@ Name | Type | Description | Notes
 **serverImageProductCode** | **String** | 서버이미지상품코드 | 
 **exclusionProductCode** | **String** | 제외할상품코드 | [optional] 
 **productCode** | **String** | 상품코드 | [optional] 
+**generationCode** | **String** | 세대코드 | [optional] 
 
 

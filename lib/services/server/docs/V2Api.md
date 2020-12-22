@@ -9,6 +9,7 @@ Method | HTTP request | Description
 [**associatePublicIpWithServerInstance**](V2Api.md#associatePublicIpWithServerInstance) | **POST** /associatePublicIpWithServerInstance | 
 [**attachBlockStorageInstance**](V2Api.md#attachBlockStorageInstance) | **POST** /attachBlockStorageInstance | 
 [**attachNetworkInterface**](V2Api.md#attachNetworkInterface) | **POST** /attachNetworkInterface | 
+[**changeBlockStorageVolumeSize**](V2Api.md#changeBlockStorageVolumeSize) | **POST** /changeBlockStorageVolumeSize | 
 [**changeNasVolumeSize**](V2Api.md#changeNasVolumeSize) | **POST** /changeNasVolumeSize | 
 [**changeServerInstanceSpec**](V2Api.md#changeServerInstanceSpec) | **POST** /changeServerInstanceSpec | 
 [**createBlockStorageInstance**](V2Api.md#createBlockStorageInstance) | **POST** /createBlockStorageInstance | 
@@ -307,6 +308,56 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**AttachNetworkInterfaceResponse**](AttachNetworkInterfaceResponse.md)
+
+### Authorization
+
+[x-ncp-iam](../README.md#x-ncp-iam)
+
+### HTTP request headers
+
+ - **Content-Type**: application/x-www-form-urlencoded
+ - **Accept**: Not defined
+
+<a name="changeBlockStorageVolumeSize"></a>
+# **changeBlockStorageVolumeSize**
+> ChangeBlockStorageVolumeSizeResponse changeBlockStorageVolumeSize(changeBlockStorageVolumeSizeRequest)
+
+
+
+블록스토리지볼륨사이즈변경
+
+### Example
+```javascript
+var Server = require('ncloud-server');
+var client = new Server.ApiClient({
+  accessKey: 'your access key',
+  secretKey: 'your secret key'
+});
+
+var apiInstance = new Server.V2Api();
+
+var changeBlockStorageVolumeSizeRequest = new Server.ChangeBlockStorageVolumeSizeRequest(); // ChangeBlockStorageVolumeSizeRequest | changeBlockStorageVolumeSizeRequest
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+apiInstance.changeBlockStorageVolumeSize(changeBlockStorageVolumeSizeRequest, callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **changeBlockStorageVolumeSizeRequest** | [**ChangeBlockStorageVolumeSizeRequest**](ChangeBlockStorageVolumeSizeRequest.md)| changeBlockStorageVolumeSizeRequest | 
+
+### Return type
+
+[**ChangeBlockStorageVolumeSizeResponse**](ChangeBlockStorageVolumeSizeResponse.md)
 
 ### Authorization
 
