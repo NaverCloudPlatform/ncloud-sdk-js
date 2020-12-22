@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1",
-    "superagent": "3.5.2"
+    "superagent": "3.7.0"
   },
   "devDependencies": {
     "mocha": "~2.3.4",
