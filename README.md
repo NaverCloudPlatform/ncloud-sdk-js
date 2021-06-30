@@ -111,7 +111,7 @@ n.init(function (err, creds) {
 ### License
 
 ```
-Copyright (c) 2018 NAVER BUSINESS PLATFORM Corp.
+Copyright (c) 2021 NAVER Cloud Corp.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
